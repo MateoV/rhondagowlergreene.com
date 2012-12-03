@@ -1,0 +1,478 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333;
+	background-color: #FFF;
+	margin: 0px;
+}
+
+p {
+  font-size:.7em;
+  padding:0 0 0 0;
+  margin-right: 2em;
+  word-spacing:0.04em;   
+  letter-spacing:0.01em;
+  line-height:
+}
+
+h1 {
+	font-size:18px;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	letter-spacing:6px;
+	font-weight:normal;
+}
+
+h3 {
+	font-size: 1.2em;
+    margin-bottom: 0.5em;
+	color:#666;
+}
+
+a { 
+	color: #666699;
+	text-decoration: none; 
+}
+
+a:hover { 
+	text-decoration:underline; 
+}
+
+a img { 
+	border: none;
+}
+
+.tagline {
+	display: block;
+	text-align: left;
+}
+
+.limiter {
+  margin: 0 auto;
+  width: 800px;
+}
+
+#content {
+  position: relative;
+	min-height: 350px;
+	padding: 20px;
+}
+
+#header {
+	position:relative;
+	text-align:center;
+	margin: 20px 0 15px;
+}
+
+#drawing {
+	position:relative;
+	width:889px;
+	height:600px;
+	margin:0;
+	text-align:center;
+}
+
+#contact {
+	clear:both;
+	font-size:.8em;
+	text-align:center;
+	margin: 20px 0 15px;
+}
+
+#nav {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	position:relative;
+	text-align: center;
+}
+
+#nav a { 
+  display:inline-block;
+  margin: 0 15px;
+}
+
+/* books */
+
+#books {
+  margin-top: 20px;
+}
+
+#book_cover {
+	width: 300px;
+	float: left;
+	margin: 0 10px 0 0;
+	font-size:.9em;
+	overflow: hidden;
+}
+
+#book_title {
+	font-family:Times, "Times New Roman", serif;
+	font-weight: bold;
+	font-size:1.2em;
+	margin: 0 0 10px 0;
+}
+
+#book_info {
+	padding-left:310px;
+}
+
+#book_isbn {
+	width:300px;
+	margin: 0;
+	overflow: hidden;
+}
+
+.outofprint {
+	border-color:#F00;
+    border-style: solid;
+	border-width:1px;
+	padding: 0px 5px;
+	display: inline-block;
+	font-size:.94em;
+	color: #F00;
+}
+
+#buynow {
+	float:left;
+	width: 79px;
+	height:25px;
+	margin: 1px 5px 0 0;
+	font-size:.9em;
+	overflow: hidden;
+}
+
+#amazon {
+	float:left;
+	width: 88px;
+	height:25px;
+	margin: 0 10px 0 0;
+	font-size:.9em;
+	overflow: hidden;
+}
+
+.buy {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#E6E6E6));
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: #CCCCCC #CCCCCC #B3B3B3;
+    border-image: none;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding: 2px 10px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+
+.buy:hover {
+    background-color: #63C;
+    background-position: 0 -15px;
+    color: #333333;
+    text-decoration: none;
+    transition: background-position 0.1s linear 0s;
+	-webkit-transition: background-position 0.1s linear 0s;
+}
+
+.buy.active, .buy:active {
+    background-color: #E6E6E6;
+    background-image: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    outline: 0 none;
+}
+
+.buy:focus {
+    outline: thin dotted #333333;
+    outline-offset: -2px;
+}
+
+.buy-info {
+    background-color: #63C;
+	background: -webkit-gradient(linear, left top, left bottom, from(#99C), to(#66C));
+    background-image: -moz-linear-gradient(center top , #99C, #66C);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.buy-info:hover, .buy-info:active, .buy-info.active, .buy-info.disabled, .buy-info[disabled] {
+    background-color: #66C;
+}
+
+.buy-info, .buy-info:hover {
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.buy-info.active {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.buy {
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.books_nav {
+  margin:0px;
+  padding:0 0 5px 0;
+	height:60px;
+	position:relative;
+	margin-left: -95px; /*temporary fix*/
+}
+
+.books_nav li {
+	border: 1px solid #666;
+  list-style: none;
+  margin:0;
+	position:absolute;
+}
+
+.books_nav li a {
+  display:block;
+	height:60px;
+}
+
+.b1 {left:145px; width:63px; background:url('../img/books_navhover.png') -5px -5px no-repeat;}
+.b2 {left:213px; width:50px; background:url('../img/books_navhover.png') -73px -5px no-repeat;}
+.b3 {left:268px; width:58px; background:url('../img/books_navhover.png') -128px -5px no-repeat;}
+.b4 {left:331px; width:46px; background:url('../img/books_navhover.png') -191px -5px no-repeat;}
+.b5 {left:382px; width:46px; background:url('../img/books_navhover.png') -242px -5px no-repeat;}
+.b6 {left:433px; width:49px; background:url('../img/books_navhover.png') -293px -5px no-repeat;}
+.b7 {left:487px; width:54px; background:url('../img/books_navhover.png') -347px -5px no-repeat;}
+.b8 {left:546px; width:55px; background:url('../img/books_navhover.png') -406px -5px no-repeat;}
+.b9 {left:606px; width:46px; background:url('../img/books_navhover.png') -466px -5px no-repeat;}
+.b10 {left:657px; width:57px; background:url('../img/books_navhover.png') -517px -5px no-repeat;}
+.b11 {left:719px; width:46px; background:url('../img/books_navhover.png') -579px -5px no-repeat;}
+.b12 {left:770px; width:45px; background:url('../img/books_navhover.png') -630px -5px no-repeat;}
+.b13 {left:145px; width:61px; background:url('../img/books_navhover.png') -5px -70px no-repeat;}
+.b14 {left:211px; width:76px; background:url('../img/books_navhover.png') -71px -70px no-repeat;}
+.b15 {left:292px; width:59px; background:url('../img/books_navhover.png') -152px -70px no-repeat;}
+.b16 {left:356px; width:47px; background:url('../img/books_navhover.png') -216px -70px no-repeat;}
+.b17 {left:408px; width:76px; background:url('../img/books_navhover.png') -268px -70px no-repeat;}
+.b18 {left:489px; width:46px; background:url('../img/books_navhover.png') -349px -70px no-repeat;}
+.b19 {left:540px; width:65px; background:url('../img/books_navhover.png') -400px -70px no-repeat;}
+.b20 {left:610px; width:65px; background:url('../img/books_navhover.png') -470px -70px no-repeat;}
+.b21 {left:680px; width:65px; background:url('../img/books_navhover.png') -540px -70px no-repeat;}
+.b22 {left:750px; width:65px; background:url('../img/books_navhover.png') -610px -70px no-repeat;}
+.b1 a:hover {left:145px; width:63px; background:url('../img/books_navhover.png') -5px -135px no-repeat;}
+.b2 a:hover {left:213px; width:50px; background:url('../img/books_navhover.png') -73px -135px no-repeat;}
+.b3 a:hover {left:268px; width:58px; background:url('../img/books_navhover.png') -128px -135px no-repeat;}
+.b4 a:hover {left:331px; width:46px; background:url('../img/books_navhover.png') -191px -135px no-repeat;}
+.b5 a:hover {left:382px; width:46px; background:url('../img/books_navhover.png') -242px -135px no-repeat;}
+.b6 a:hover {left:433px; width:49px; background:url('../img/books_navhover.png') -293px -135px no-repeat;}
+.b7 a:hover {left:487px; width:54px; background:url('../img/books_navhover.png') -347px -135px no-repeat;}
+.b8 a:hover {left:546px; width:55px; background:url('../img/books_navhover.png') -406px -135px no-repeat;}
+.b9 a:hover {left:606px; width:46px; background:url('../img/books_navhover.png') -466px -135px no-repeat;}
+.b10 a:hover {left:657px; width:57px; background:url('../img/books_navhover.png') -517px -135px no-repeat;}
+.b11 a:hover {left:719px; width:46px; background:url('../img/books_navhover.png') -579px -135px no-repeat;}
+.b12 a:hover {left:770px; width:45px; background:url('../img/books_navhover.png') -630px -135px no-repeat;}
+.b13 a:hover {left:145px; width:61px; background:url('../img/books_navhover.png') -5px -200px no-repeat;}
+.b14 a:hover {left:211px; width:76px; background:url('../img/books_navhover.png') -71px -200px no-repeat;}
+.b15 a:hover {left:292px; width:59px; background:url('../img/books_navhover.png') -152px -200px no-repeat;}
+.b16 a:hover {left:356px; width:47px; background:url('../img/books_navhover.png') -216px -200px no-repeat;}
+.b17 a:hover {left:408px; width:76px; background:url('../img/books_navhover.png') -268px -200px no-repeat;}
+.b18 a:hover {left:489px; width:46px; background:url('../img/books_navhover.png') -349px -200px no-repeat;}
+.b19 a:hover {left:540px; width:65px; background:url('../img/books_navhover.png') -400px -200px no-repeat;}
+.b20 a:hover {left:610px; width:65px; background:url('../img/books_navhover.png') -470px -200px no-repeat;}
+.b21 a:hover {left:680px; width:65px; background:url('../img/books_navhover.png') -540px -200px no-repeat;}
+.b22 a:hover {left:750px; width:65px; background:url('../img/books_navhover.png') -610px -200px no-repeat;}
+
+.clearer {
+	clear: both;
+	font-size: 1px;
+}
+
+/* bio */
+
+#bio {
+	width: 960px;
+}
+
+#bio_info {
+	margin:0;
+}
+
+#bio_img {
+	margin: 0 0 -5px 0;
+	overflow: hidden;
+}
+
+#bio_img_r {
+	float: right;
+	margin: 0 0 0 10px;
+	overflow: hidden;
+}
+
+#bio_img_l {
+	float: left;
+	margin: 0 10px 0 0;
+	overflow: hidden;
+}
+
+#bio_img_l2 {
+	float: left;
+	margin: 0 10px 0 150px;
+	overflow: hidden;
+}
+
+#bio_img_l3 {
+	float: left;
+	margin: 0 10px 0 118px;
+	overflow: hidden;
+}
+
+#family {
+	width: 960px;
+	margin:0;
+}
+
+#family #matt {
+	float:left;
+	width: 475px;
+	margin: 0 0 10px 0;
+	overflow: hidden;
+}
+
+#family #aaron {
+	float:left;
+	width: 475px;
+	margin: 0 0 10px 10px;
+	overflow: hidden;
+}
+
+#family #lianna {
+	float:left;
+	width: 475px;
+	margin: 0 0 10px 0;
+	overflow: hidden;
+}
+
+#family #brad {
+	float:left;
+	width: 475px;
+	margin: 0 0 10px 10px;
+	overflow: hidden;
+}
+
+/* visits */
+
+#visits {
+	width: 960px;
+}
+
+#visits img {
+   padding:2px;
+   border:1px solid #333;	
+}
+
+#visitlink {
+	/*width:335px;*/
+	width:170px;
+	float:left;
+	font-size:1.1em;
+	/*margin: 0 0 35px 0;*/
+	margin: 0 0 35px 210px;
+	padding-top:85px;
+	text-align:center;	
+}
+
+#otherlink {
+	/*width:290px;*/
+	width:170px;
+	float:left;
+	font-size:1.1em;
+	/*margin: 0 45px 35px 0;*/
+	margin: 0 210px 116px 0;
+	padding-top:85px;
+	text-align:center;
+}
+
+#portrait {
+	width:200px;
+	float:left;
+	margin: 0;
+}
+
+#intro {
+	margin: 0 0 0 235px;
+}
+
+#visitinfo {
+	padding-left:316px;
+	margin:0;
+}
+
+#otherinfo {
+	margin:0;
+}
+
+#visit_pics {
+	width: 306px;
+	float: left;
+	margin: 0 10px 0 0;
+	overflow: hidden;
+}
+
+#visit_img {
+	margin: 0 0 -5px 0;
+	overflow: hidden;
+}
+
+#visit_img_r {
+	float: right;
+	margin: 0 -20px 0 10px;
+	overflow: hidden;
+}
+
+#visit_img_l {
+	float: left;
+	margin: 0 10px 0 105px;
+	overflow: hidden;
+}
+
+#boxwhite {
+	border:1px #666 solid;	
+}
+
+#box {
+	background-color:#FFC;
+	border:1px #666 solid;	
+}
+
+.caption {
+	font-size: .65em;
+	font-style:italic;
+	text-align:center;
+}
+
+#visits .h2 {
+	font-size: .9em;
+	font-weight:bold;	
+}
+
+#visits .hgreen {
+	font-size: .9em;
+	font-weight:bold;
+	color:#3C6;	
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.indent {
+	margin-left:40px;
+}
