@@ -1,12 +1,13 @@
 ---
 layout: default
 ---
+{% assign base = site.baseurl %}
 <ul class="books_nav">
 	<li class="b1"><a href="books.php?t=shape"></a></li>
     <li class="b2"><a href="books.php?t=thanksgiving"></a></li>
     <li class="b3"><a href="books.php?t=teacher"></a></li>
     <li class="b4"><a href="books.php?t=santa"></a></li>
-    <li class="b5"><a href="/books/barnyard"></a></li>
+    <li class="b5"><a href="{{base}}/books/barnyard"></a></li>
     <li class="b6"><a href="books.php?t=stable"></a></li>
     <li class="b7"><a href="books.php?t=mommy"></a></li>
     <li class="b8"><a href="books.php?t=daddy"></a></li>
@@ -29,7 +30,7 @@ layout: default
 </ul>
 
 <div id="books">
-  <div id="book_cover"><img src="/img/cover_{{page.short}}.jpg" alt="{{page.title}}" />
+  <div id="book_cover"><img src="{{base}}/img/cover_{{page.short}}.jpg" alt="{{page.title}}" />
     <p class="description">
       {{page.publisher}}
       {% for book in page.isbn %}
