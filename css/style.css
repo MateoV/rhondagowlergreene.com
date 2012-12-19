@@ -51,7 +51,7 @@ a img {
 
 .limiter {
   margin: 0 auto;
-  width: 800px;
+  width: 810px;
 }
 
 #content {
@@ -63,7 +63,7 @@ a img {
 #header {
 	position:relative;
 	text-align:center;
-	margin: 20px 0 15px;
+	margin: 25px 0 12px;
 }
 
 #drawing {
@@ -90,13 +90,15 @@ a img {
 
 #nav a { 
   display:inline-block;
-  margin: 0 15px;
+  margin: 0 19px;
 }
 
 /* books */
 
 #books {
-  margin-top: 20px;
+	margin-top: 10px;
+	padding-left:50px;
+	width: 670px;
 }
 
 #book_cover {
