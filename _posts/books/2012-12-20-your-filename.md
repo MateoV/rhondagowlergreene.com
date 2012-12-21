@@ -1,0 +1,29 @@
+---
+layout: books
+category: books
+title: Eek! Creak! Snicker, Sneak
+short: eek
+illustrator: Jos. A. Smith
+publisher: "Simon & Schuster/Atheneum"
+isbn:
+  - type: hardcover
+    number: 0-689-83047-5
+    inprint: false
+---
+
+A fun, whimsical story of two little mischievous creatures that scare kids at night. But guess who gets scared in the end??
+
+"What, or rather, who makes all that noise outside that torments kids at bedtime? Parents, of course, will always look for a logical explanation: 'It's just a truck, a clackity train,/a thunderstorm, the zooooom of a plane.' But Greene and Smith step inside the imaginations of children and propose that such noises are the work of two creatures: Bugbear…and Bugaboo…Delivered in a funny way, the message has the authority of FDR: the only thing we have to fear is fear itself."  
+_Publishers Weekly_
+
+"…the rollicking verse is full of onomatopoeia and spooky noises…A great opportunity for adults to howl and yowl at bedtime storytimes, these 'boos' deserve a resounding yeah."  
+_School Library Journal_
+
+"…Kids will delight in the satisfying switch when the children gather up their courage and turn the tables on the two…On repeated reads, kids will eagerly join in with the word sounds as they anticipate the child-size victory."  
+_Kirkus_
+
+Junior Library Guild Selection
+
+The Bulletin for the Center of Children's Books – recommended rating
+
+Children's Book-of-the-Month Club selection
