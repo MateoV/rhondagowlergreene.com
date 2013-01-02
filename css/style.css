@@ -25,10 +25,32 @@ h1 {
 	font-weight:normal;
 }
 
-h3 {
+.h2 {
+	font-size:.8em;
+	text-indent: 1px;
+	color: #4789e2;
+}
+
+.h3 {
 	font-size: 1.2em;
     margin-bottom: 0.5em;
 	color:#666;
+}
+
+.h4 {
+	font-size:.8em;
+	text-indent: 1px;
+	color: #7a47e2;
+}
+
+.pagetext {
+  font-size:1em;
+  padding:0 0 0 0;
+  margin-right: 2em;
+  word-spacing:0.04em;   
+  letter-spacing:0.01em;
+  line-height:1.2em;
+  color:#666;
 }
 
 a { 
@@ -57,19 +79,44 @@ a img {
 #content {
   position: relative;
 	min-height: 350px;
-	padding: 20px;
+	padding:20px 0 0 0;
 }
 
-#header {
+#rgg_header {
+  	position:relative;
+	font-family: 'Milonga';
+	font-size:40px;
+	text-align:center;
+	margin: 25px 0 0 0;
+}
+
+#rgg_header a {
+	color: #666699;
+	text-decoration: none; 
+}
+
+#sub_header {
+  	position:relative;
+	font-family: 'Milonga';
+	font-size:22px;
+	text-align:center;
+	margin: 0 0 12px;
+}
+
+#sub_header a {
+	color: #666699;
+	text-decoration: none; 
+}
+
+/*#header {
 	position:relative;
 	text-align:center;
 	margin: 25px 0 12px;
-}
+}*/
 
 #drawing {
 	position:relative;
-	width:889px;
-	height:600px;
+	width:810px;
 	margin:0;
 	text-align:center;
 }
@@ -82,22 +129,25 @@ a img {
 }
 
 #nav {
+	height:30px;
 	font-family:Arial, Helvetica, sans-serif;
 	font-weight:bold;
 	position:relative;
 	text-align: center;
+	border-bottom:1px #DDD solid;
 }
 
 #nav a { 
   display:inline-block;
   margin: 0 19px;
+  /*border-bottom:2px #DDD solid;*/
 }
 
 /* books */
 
 #books {
 	margin-top: 10px;
-	padding-left:50px;
+	padding-left:70px;
 	width: 670px;
 }
 
@@ -232,7 +282,7 @@ a img {
   padding:0 0 5px 0;
 	height:60px;
 	position:relative;
-	margin-left: -95px; /*temporary fix*/
+	margin-left: -75px; /*temporary fix*/
 }
 
 .books_nav li {
@@ -300,7 +350,11 @@ a img {
 /* bio */
 
 #bio {
-	width: 960px;
+	width: 810px;
+}
+
+#bio_intro {
+	margin:0 0 12px 0;
 }
 
 #bio_info {
@@ -326,7 +380,7 @@ a img {
 
 #bio_img_l2 {
 	float: left;
-	margin: 0 10px 0 150px;
+	margin: 5px 10px 0 0;
 	overflow: hidden;
 }
 
@@ -336,48 +390,59 @@ a img {
 	overflow: hidden;
 }
 
-#family {
-	width: 960px;
+#bio_img_center {
+	text-align:center;
 	margin:0;
+	overflow: hidden;
+}
+
+#gary {
+	height: 280px;
+	margin: 0;
+}
+
+#family {
+	width: 810px;
+	margin:0;
+	line-height:1em;
 }
 
 #family #matt {
 	float:left;
-	width: 475px;
+	width: 400px;
 	margin: 0 0 10px 0;
+	/*background-color:#d9efff;*/
 	overflow: hidden;
 }
 
 #family #aaron {
 	float:left;
-	width: 475px;
+	width: 400px;
 	margin: 0 0 10px 10px;
+	/*background-color:#d9efff;*/
 	overflow: hidden;
 }
 
 #family #lianna {
 	float:left;
-	width: 475px;
+	width: 400px;
 	margin: 0 0 10px 0;
+	/*background-color:#d9efff;*/
 	overflow: hidden;
 }
 
 #family #brad {
 	float:left;
-	width: 475px;
+	width: 400px;
 	margin: 0 0 10px 10px;
+	/*background-color:#d9efff;*/
 	overflow: hidden;
 }
 
 /* visits */
 
 #visits {
-	width: 960px;
-}
-
-#visits img {
-   padding:2px;
-   border:1px solid #333;	
+	width: 810px;
 }
 
 #visitlink {
@@ -441,17 +506,27 @@ a img {
 
 #visit_img_l {
 	float: left;
-	margin: 0 10px 0 105px;
+	margin: 6px 10px 0 5px;
+	/*margin: 18px 10px 2px 10px;*/
 	overflow: hidden;
 }
 
-#boxwhite {
-	border:1px #666 solid;	
+#box1 {
+	height:369px;
+	line-height:.8em;
+	background-color:#f4f4f4;
+	border:1px #FFF solid;	
 }
 
-#box {
-	background-color:#FFC;
-	border:1px #666 solid;	
+#box2 {
+	line-height:1.5em;
+	background-color:#f4f4f4;
+	border:1px #FFF solid;	
+}
+
+#testimonials {
+	background-color:#f4f4f4;
+	border:1px #FFF solid;	
 }
 
 .caption {
@@ -477,4 +552,20 @@ a img {
 
 .indent {
 	margin-left:40px;
+}
+
+/* for writers */
+
+#writers {
+	width: 810px;
+}
+
+#goodbooks {
+	line-height:1.7em;	
+}
+
+/* contact */
+
+#contact_info {
+	width: 810px;
 }
