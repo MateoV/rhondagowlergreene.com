@@ -129,17 +129,76 @@ a img {
 
 #nav {
 	height:30px;
+	margin:0;
+	padding:0;
 	font-family:Arial, Helvetica, sans-serif;
+	list-style:none;
 	font-weight:bold;
 	position:relative;
+	z-index:5;
 	text-align: center;
 	border-bottom:1px #DDD solid;
 }
 
+#nav li {
+	display:inline-block;
+	margin: 0 19px;
+}
+
+#nav li.submenu {
+	float:none;
+	display:block;
+	margin: 0;
+}
+
 #nav a { 
-  display:inline-block;
-  margin: 0 19px;
+	display:inline-block;
+	margin: 0;
   /*border-bottom:2px #DDD solid;*/
+}
+
+/* drop down nav */
+
+#nav ul {
+    background:#FFF;
+    background:rgba(255,255,255,0);
+    list-style:none;
+    position:absolute;
+    left:-9999px;
+	opacity: 0;
+	-webkit-transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -o-transition: opacity .4s ease-in-out;
+    transition: opacity .4s ease-in-out;
+}
+
+#nav ul li {
+	text-align:left;
+    padding-top:1px;
+    float:none;
+}
+
+#nav ul a {
+    white-space:nowrap;
+}
+
+#nav li:hover ul {
+	display: block;
+    position: absolute; 
+    left:314px;
+	opacity: 1
+}
+
+#nav li:hover a{
+    text-decoration:underline;
+}
+#nav li:hover ul a{
+	font-size:.8em;
+    text-decoration:none;
+}
+
+#nav li:hover ul li a:hover {
+	text-decoration:underline;
 }
 
 /* books */
@@ -193,7 +252,7 @@ a img {
 #forthcoming {
 	width:670px;
 	height:88px;
-	margin:-5px 0 12px 70px;
+	margin:5px 0 12px 70px;
 	font-weight:bold;
 	font-style:italic;
 	text-align:center;
@@ -208,6 +267,10 @@ a img {
 	font-size:.8em;
 	font-weight:normal;
 	text-align:center;
+	-webkit-transition: background .1s ease-in-out;
+    -moz-transition: background .1s ease-in-out;
+    -o-transition: background .1s ease-in-out;
+    transition: background .1s ease-in-out;
 }
 
 #forthcoming a:hover {

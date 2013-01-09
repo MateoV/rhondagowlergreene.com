@@ -18,13 +18,19 @@
   <div class="limiter">
     <div id="rgg_header"><a href="{{base}}/">Rhonda Gowler Greene</a></div>
     <div id="sub_header"><a href="{{base}}/">children's book author & speaker</a></div>
-  	<div id="nav">
-      <a href="{{base}}/books/shape">books</a>
-			<a href="{{base}}/bio/bio">bio</a>
-      <a href="{{base}}/visits/school">visits</a>
-			<a href="{{base}}/writers/writers">for writers</a>
-      <a href="{{base}}/contact/contact">contact</a>
-  	</div>
+  	<ul id="nav">
+      <li><a href="{{base}}/books/shape">books</a></li>
+	  <li><a href="{{base}}/bio/bio">bio</a></li>
+      <li>
+      		<a href="{{base}}/visits/school">visits</a>
+      			<ul>
+                	<li class="submenu"><a href="{{base}}/visits/school">school visits</a></li>
+                    <li class="submenu"><a href="{{base}}/visits/other">other presentations</a></li>
+                </ul>
+      </li>
+	  <li><a href="{{base}}/writers/writers">for writers</a></li>
+      <li><a href="{{base}}/contact/contact">contact</a></li>
+  	</ul>
   
   	<div id="content">
     	{{content}}

@@ -45,6 +45,8 @@ layout: default
         ISBN {{book.number}} ({{book.type}}){% if book.inprint == 'false' %} <span class="outofprint">out of print</span> **is available through the author{% endif %}
       {% endfor %}
     </p>
+    <div id="buynow"><a class="buy buy-info" href="/test">Buy now</a></div>
+	<div id="amazon"><a href=				"http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FWhen-Line-Bends-Shape-Begins%2Fdp%2F0618152415%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1207817914%26sr%3D8-21&tag=rhondgowlegre-20&linkCode=ur2&camp=1789&creative=9325" target="_blank"><img src="{{base}}/img/buy_amazon.gif" width="88" height="25" border="0"></a></div>
   </div>
   <div id="book_title">{{page.title}}</div>
   <div id="book_info"><p class="description">
