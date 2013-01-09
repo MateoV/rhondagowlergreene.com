@@ -12,6 +12,7 @@ isbn:
   - type: paperback
     number: 0-8028-5267-X
     inprint: false
+buy: "http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FBeautiful-World-That-God-Made%2Fdp%2F0802852130%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1207816375%26sr%3D8-19&tag=rhondgowlegre-20&linkCode=ur2&camp=1789&creative=9325"
 ---
 
 > _This is the beautiful world that God made.  

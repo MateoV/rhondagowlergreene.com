@@ -9,6 +9,7 @@ isbn:
   - type: paperback
     number: 978-1-60743-061-2
     inprint: true
+buy: "http://www.readingbirdbooks.com/"
 ---
 
 A unique resource, this book is filled to the brim with writing tips. Its main focus is learning how to write better by studying how real authors write. Many examples are given of great children's literature. It's also unique because the illustrations (color cover; b/w inside) are drawn in a graphic novel format. The girl character in the book has to write a story for class. She says she's not very good at writing. The boy character shares writing tip after writing tip after writing tip. By the end, the girl is eager and confident to write her story.
