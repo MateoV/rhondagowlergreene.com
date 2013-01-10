@@ -4,7 +4,7 @@ body {
 	font-weight: normal;
 	font-variant: normal;
 	color: #333;
-	background-color: #FFF;
+	background-color: #5c7fe3;
 	margin: 0px;
 }
 
@@ -92,12 +92,12 @@ a img {
   width: 810px;
 }
 
-/*.whitebg {
+.whitebg {
 	margin: 0 auto;
 	padding:1px 0;
     width: 900px;
 	background:#FFF;
-}*/
+}
 
 #content {
   position: relative;
@@ -172,6 +172,15 @@ a img {
 #nav li.books:hover {
 	background:#ca4343;
 	border-bottom:13px #ca4343 solid;
+	-webkit-transition: border-bottom .4s ease-in-out;
+    -moz-transition: border-bottom .4s ease-in-out;
+    -o-transition: border-bottom .4s ease-in-out;
+    transition: border-bottom .4s ease-in-out;
+}
+
+#nav li.books_a:hover {
+	background:#999;
+	border-bottom:13px #999 solid;
 	-webkit-transition: border-bottom .4s ease-in-out;
     -moz-transition: border-bottom .4s ease-in-out;
     -o-transition: border-bottom .4s ease-in-out;

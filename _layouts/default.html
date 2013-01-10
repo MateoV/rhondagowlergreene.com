@@ -15,11 +15,12 @@
 </head>
 
 <body>
+	<div class="whitebg">
   <div class="limiter">
     <div id="rgg_header"><a href="{{base}}/">Rhonda Gowler Greene</a></div>
     <div id="sub_header"><a href="{{base}}/">children's book author & speaker</a></div>
   	<ul id="nav">
-      <li class="books"><a href="{{base}}/books/shape">books</a></li>
+      {% if page == books %} <li class="books_a"><a href="{{base}}/books/shape">books</a></li> {% else %} <li class="books"><a href="{{base}}/books/shape">books</a></li> {% endif %}
 	  <li class="bio"><a href="{{base}}/bio/bio">bio</a></li>
       <li class="visits">
       		<a href="{{base}}/visits/school">visits</a>
@@ -40,7 +41,7 @@
       <a href="mailto:rgowgreene@gmail.com" title="Email Me">rgowgreene@gmail.com</a>
       <a href="http://facebook.com/rhondagowlergreene" title="Rhonda's Facebook" target="_blank"><img src="{{base}}/img/f_logo.png" alt="Rhonda's Facebook" /></a>
     </div>
-  </div>
+  </div></div>
   
 </body>
 </html>
