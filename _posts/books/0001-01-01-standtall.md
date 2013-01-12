@@ -25,4 +25,4 @@ A unique resource, this book is filled to the brim with writing tips. Its main f
 
 Moonbeam Children's Book Award
 
-Suggested for grades 3rd – 8th. To learn more about the book and see inside pages [click here](http://www.readingbirdbooks.com/).
+Suggested for grades 3rd – 8th. To learn more about the book and see inside pages <a href="http://www.readingbirdbooks.com/" target="_blank">click here</a>.

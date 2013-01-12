@@ -42,10 +42,10 @@ layout: default
       {{page.publisher}}
       {% for book in page.isbn %}
         <br />
-        ISBN {{book.number}} ({{book.type}}){% if book.inprint == 'false' %} <span class="outofprint">out of print</span> **is available through the author{% endif %}
+        ISBN {{book.number}} ({{book.type}}) {% if book.inprint == false %} <span class="outofprint">out of print</span> {% endif %}
       {% endfor %}
     </p>
-    <div id="buynow"><a class="buy buy-info" href="{{page.buy}}" target="_blank">Buy now</a></div>
+    {% if page.buy == false %} {% else %} <div id="buynow"><a class="buy buy-info" href="{{page.buy}}" target="_blank">Buy now</a></div> {% endif %}
   </div>
   <div id="book_title">{{page.title}}</div>
   <div id="book_info"><p class="description">
