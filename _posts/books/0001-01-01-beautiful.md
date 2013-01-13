@@ -32,6 +32,8 @@ _School Library Journal_
 "Brilliantly conceived and executed…a joyous treatment of creation."  
 _Ottawa Jewish Bulletin_
 
+<p class="awards">
 Association of Jewish Libraries Notable Book
-
+<br /><br />
 Children's Book Council Showcase Book
+</p>

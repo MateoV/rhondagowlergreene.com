@@ -49,14 +49,19 @@ h1 {
 }
 
 .h3 {
-	font-size: 1.2em;
-    margin-bottom: 0.5em;
-	color:#666;
+	font-size:1.2em;
+	font-style:italic;
+	color: #7a47e2;
 }
 
 .h4 {
 	font-size:.8em;
 	text-indent: 1px;
+	color: #7a47e2;
+}
+
+.presentations {
+	font-size:.7em;
 	color: #7a47e2;
 }
 
@@ -79,7 +84,7 @@ h1 {
 }
 
 a { 
-	color: #666699;
+	color: #9587ff;
 	text-decoration: none; 
 }
 
@@ -102,9 +107,11 @@ a img {
 }
 
 .whitebg {
-	margin: 0 auto;
-	padding:1px 0;
+	margin: 25px auto;
+	padding:1px 0 10px 0;
     width: 900px;
+	/*border-radius: 6px;
+    box-shadow: 0 2px 25px #2e4178;*/
 	background:#FFF;
 }
 
@@ -160,6 +167,10 @@ a img {
 	margin: 20px 0 15px;
 }
 
+#contact a {
+	color:#666699;
+}
+
 #nav {
 	height:30px;
 	margin:0;
@@ -173,6 +184,10 @@ a img {
 	border-bottom:1px #DDD solid;
 }
 
+#nav a {
+	color:#666699;
+}
+
 #nav li {
 	display:inline-block;
 	margin: 0 17px;
@@ -183,8 +198,8 @@ a img {
 }
 
 #nav li.books:hover {
-	background:#ff6c68;
-	border-bottom:13px #ff6c68 solid;
+	background:#f7cd2b;
+	border-bottom:13px #f7cd2b solid;
 	-webkit-transition: border-bottom .4s ease-in-out;
     -moz-transition: border-bottom .4s ease-in-out;
     -o-transition: border-bottom .4s ease-in-out;
@@ -193,8 +208,8 @@ a img {
 
 #nav li.books_tab {
 	padding:0 2px;
-	background:#ff6c68;
-	border-bottom:13px #ff6c68 solid;
+	background:#f7cd2b;
+	border-bottom:13px #f7cd2b solid;
 }
 
 #nav li.books_tab a {
@@ -337,7 +352,15 @@ a img {
     white-space:nowrap;
 }
 
-#nav li:hover ul {
+
+#nav li:hover ul.books {
+	display: block;
+    position: absolute; 
+    left:154px;
+	opacity: 1;
+}
+
+#nav li:hover ul.visits {
 	display: block;
     position: absolute; 
     left:310px;
@@ -361,7 +384,13 @@ a img {
     transition: background .4s ease-in-out;
 }
 
-#nav li:hover ul li a:hover {
+#nav li:hover ul.books li a:hover {
+	text-decoration:none;
+	color:#FFF;
+	background:#f7cd2b;
+}
+
+#nav li:hover ul.visits li a:hover {
 	text-decoration:none;
 	color:#FFF;
 	background:#4789e2;
@@ -399,25 +428,38 @@ a img {
 	color: #666;
 }
 
+#book_info a {
+	color: #9587ff;
+}
+
 #book_isbn {
 	width:300px;
 	margin: 0;
 	overflow: hidden;
 }
 
-.outofprint {
+.awards {
+  font-size:.7em;
+  color: #4789e2;
+  padding:0 0 0 0;
+  margin-right: 2em;
+  word-spacing:0.04em;   
+  letter-spacing:0.01em;
+}
+
+/*.outofprint {
 	border-color:#666;
     border-style: solid;
 	border-width:1px;
 	padding: 0px 5px;
 	display: inline-block;
 	font-size:.94em;
-}
+}*/
 
 #forthcoming {
-	width:370px;
+	width:670px;
 	height:88px;
-	margin:5px 0 12px 220px;
+	margin:5px 0 12px 70px;
 	font-weight:bold;
 	font-style:italic;
 	text-align:center;
@@ -426,9 +468,10 @@ a img {
 }
 
 #forthcoming a {
-	width:370px;
+	width:670px;
 	display:block;
 	margin: 0;
+	color:#666699;
 	font-size:.8em;
 	font-weight:normal;
 	text-align:center;
@@ -459,17 +502,18 @@ a img {
 	float:left;
 	width: 79px;
 	height:25px;
-	margin: 1px 5px 0 0;
+	margin: 1px 10px 0 0;
 	font-size:.9em;
 	overflow: hidden;
 }
 
 #amazon {
 	float:left;
-	width: 88px;
+	width: 200px;
 	height:25px;
 	margin: 0 10px 0 0;
-	font-size:.9em;
+	color:#666;
+	font-size:.6em;
 	overflow: hidden;
 }
 
@@ -547,7 +591,15 @@ a img {
 }
 
 .books_nav {
-  margin:0px;
+  margin:5px 0 0 0;
+  padding:0 0 5px 0;
+	height:60px;
+	position:relative;
+	margin-left: -75px; /*temporary fix*/
+}
+
+.books_nav2 {
+  margin:0 0 0 0;
   padding:0 0 5px 0;
 	height:60px;
 	position:relative;
@@ -561,7 +613,19 @@ a img {
 	position:absolute;
 }
 
+.books_nav2 li {
+	border: 1px solid #666;
+  list-style: none;
+  margin:0;
+	position:absolute;
+}
+
 .books_nav li a {
+  display:block;
+	height:60px;
+}
+
+.books_nav2 li a {
   display:block;
 	height:60px;
 }
@@ -632,8 +696,9 @@ a img {
 
 #bio_awards {
 	height:194px;
-	width:637px;
+	width:505px;
 	margin:-7px 0 0 173px;
+	padding-left:130px;
 	background-color:#edf1fa;
 	border:1px #8eabf5 solid;	
 }
@@ -777,7 +842,8 @@ a img {
 }
 
 #visit_img {
-	margin: 0 0 -5px 0;
+	text-align:center;
+	margin: 0;
 	overflow: hidden;
 }
 
@@ -789,20 +855,29 @@ a img {
 
 #visit_img_l {
 	float: left;
-	margin: 14px 10px 0 5px;
+	margin: 5px 15px 0 5px;
 	/*margin: 18px 10px 2px 10px;*/
 	overflow: hidden;
 }
 
+#visit_img_other {
+	float: left;
+	margin: 5px 15px 0 5px;
+	padding-top:20px;
+	overflow: hidden;
+}
+
 #box1 {
-	height:360px;
-	line-height:.8em;
+	height:263px;
+	padding:10px;
+	line-height:1em;
 	background-color:#edf1fa;
 	border:1px #8eabf5 solid;	
 }
 
 #box2 {
-	line-height:1.5em;
+	padding:10px 20px 15px 40px;
+	line-height:1.2em;
 	background-color:#edf1fa;
 	border:1px #8eabf5 solid;	
 }
@@ -813,7 +888,25 @@ a img {
 }
 
 .caption {
-	font-size: .65em;
+	margin:0;
+	font-size: .5em;
+	line-height:1.5em;
+	font-style:italic;
+	text-align:center;
+}
+
+.caption_other {
+	margin:0 0 30px 0;
+	font-size: .5em;
+	line-height:1.5em;
+	font-style:italic;
+	text-align:center;
+}
+
+.caption_other2 {
+	margin:0 0 35px 0;
+	font-size: .5em;
+	line-height:1.5em;
 	font-style:italic;
 	text-align:center;
 }

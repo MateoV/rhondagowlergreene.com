@@ -23,6 +23,8 @@ A unique resource, this book is filled to the brim with writing tips. Its main f
 > Girl: _Hmm…_  
 > Boy: _Ok, here goes—Real authors use lots of detail…_
 
+<p class="awards">
 Moonbeam Children's Book Award
+</p>
 
 Suggested for grades 3rd – 8th. To learn more about the book and see inside pages <a href="http://www.readingbirdbooks.com/" target="_blank">click here</a>.

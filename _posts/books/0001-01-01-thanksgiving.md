@@ -31,6 +31,8 @@ _Publishers Weekly_
 "…a delightful, cumulative tale…Beautifully detailed acrylic paintings…"  
 _The Topeka Capital Journal_
 
+<p class="awards">
 Society of Illustrators Original Art Show (New York City)
-
+<br /><br />
 Children's Book-of-the-Month Club selection
+</p>

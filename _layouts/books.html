@@ -2,13 +2,6 @@
 layout: default
 ---
 {% assign base = site.baseurl %}
-<div id="forthcoming">
-<span class="forth">Forthcoming Titles...</span><br />
-      <a href="{{base}}/books/pirates">No Pirates Allowed! Said Library Lou</a>
-	  <a href="{{base}}/books/kitten">Only God Can Make a Kitten</a>
-	  <a href="{{base}}/books/walker">3 new picture books</a>
-      <a href="{{base}}/books/reillus">Re-illustrated books</a>
-</div>
 <ul class="books_nav">
   <li class="b1"><a href="{{base}}/books/shape"></a></li>
   <li class="b2"><a href="{{base}}/books/thanksgiving"></a></li>
@@ -23,7 +16,7 @@ layout: default
   <li class="b11"><a href="{{base}}/books/polar"></a></li>
   <li class="b12"><a href="{{base}}/books/standtall"></a></li>
 </ul>
-<ul class="books_nav">
+<ul class="books_nav2">
   <li class="b13"><a href="{{base}}/books/grandma"></a></li>
   <li class="b14"><a href="{{base}}/books/eek"></a></li>
   <li class="b15"><a href="{{base}}/books/doppet"></a></li>
@@ -42,13 +35,13 @@ layout: default
       {{page.publisher}}
       {% for book in page.isbn %}
         <br />
-        ISBN {{book.number}} ({{book.type}}) {% if book.inprint == false %} <span class="outofprint">out of print</span> {% endif %}
+        {% if book.type == "Kindle ebook" %} {{book.type}} {% elsif book.type == "audio CD version" %} {{book.type}} {% else %} ISBN {{book.number}} ({{book.type}}) {% endif %}
       {% endfor %}
     </p>
-    {% if page.buy == false %} {% else %} <div id="buynow"><a class="buy buy-info" href="{{page.buy}}" target="_blank">Buy now</a></div> {% endif %}
+    {% if page.buy == false %} {% else %} <div id="buynow"><a class="buy buy-info" href="{{page.buy}}" target="_blank">Buy now</a></div> <div id="amazon">Out of print books may be available through the author. Please inquire.</div> {% endif %}
   </div>
   <div id="book_title">{{page.title}}</div>
   <div id="book_info"><p class="description">
-    Illustrated by {{page.illustrator}}<br />
+    {% if page.illustrator == false %} {% else %} Illustrated by {{page.illustrator}}<br /> {% endif %}
     {{content}}
 </div>

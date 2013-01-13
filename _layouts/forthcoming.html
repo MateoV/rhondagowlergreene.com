@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{% assign base = site.baseurl %}
+<div id="forthcoming">
+<span class="forth">Forthcoming Titles...</span><br />
+      <a href="{{base}}/forthcoming/pirates">No Pirates Allowed! Said Library Lou</a>
+	  <a href="{{base}}/forthcoming/kitten">Only God Can Make a Kitten</a>
+	  <a href="{{base}}/forthcoming/walker">3 new picture books</a>
+      <a href="{{base}}/forthcoming/reillus">Re-illustrated books</a>
+</div>
+
+<div id="books">
+  <div id="book_cover"><img src="{{base}}/img/cover_{{page.short}}.jpg" alt="{{page.title}}" />
+    <p class="description">
+      {{page.publisher}}
+      {% for book in page.isbn %}
+        <br />
+        {% if book.type == "Kindle ebook" %} {{book.type}} {% elsif book.type == "audio CD version" %} {{book.type}} {% else %} ISBN {{book.number}} ({{book.type}}) {% endif %}
+      {% endfor %}
+    </p>
+    {% if page.buy == false %} {% else %} <div id="buynow"><a class="buy buy-info" href="{{page.buy}}" target="_blank">Buy now</a></div> {% endif %}
+  </div>
+  <div id="book_title">{{page.title}}</div>
+  <div id="book_info"><p class="description">
+    {% if page.illustrator == false %} {% else %} Illustrated by {{page.illustrator}}<br /> {% endif %}
+    {{content}}
+</div>
