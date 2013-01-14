@@ -20,10 +20,12 @@ buy: "http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.a
 
 The story of the first Thanksgiving for young readers with beautiful Dutch-inspired paintings.
 
-> _This is the very first Thanksgiving Day.  
-> This is the food, gathered and blessed,  
-> the corn and sweet berries, the wild turkey dressed  
-> shared on the very first Thanksgiving Day._
+<blockquote class="excerpt"><p2 class="excerpt">
+This is the very first Thanksgiving Day. <br />
+This is the food, gathered and blessed, <br />
+the corn and sweet berries, the wild turkey dressed <br />
+shared on the very first Thanksgiving Day.
+</p2></blockquote>
 
 "…Greene succinctly describes the first feast and traces the Pilgrims' roots back to England. Gaber contributes breathtaking paintings…Her illustration of the Mayflower, seen as a tiny ship against a vast sea nearly indistinguishable from the sky, alone testifies to the Pilgrims' courageous journey."  
 _Publishers Weekly_

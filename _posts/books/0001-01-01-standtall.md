@@ -14,14 +14,16 @@ buy: "http://www.readingbirdbooks.com/"
 
 A unique resource, this book is filled to the brim with writing tips. Its main focus is learning how to write better by studying how real authors write. Many examples are given of great children's literature. It's also unique because the illustrations (color cover; b/w inside) are drawn in a graphic novel format. The girl character in the book has to write a story for class. She says she's not very good at writing. The boy character shares writing tip after writing tip after writing tip. By the end, the girl is eager and confident to write her story.
 
-> Girl: _Huh? I don't get it._  
-> Boy: _You learn to write well from the best—good books Real Authors write._  
-> Girl: _Real Authors?_  
-> Boy: _Yeah, the experts at writing. Their writing stands tall. So can yours._  
-> Girl: _Yeah?_  
-> Boy: _Yeah. See, athletes learn from good athletes. Artists learn from good artists. Writers learn from good writers. Get the picture?_  
-> Girl: _Hmm…_  
-> Boy: _Ok, here goes—Real authors use lots of detail…_
+<blockquote class="standtall"><p2 class="excerpt">
+Girl: <i>Huh? I don't get it. </i><br />
+Boy: <i>You learn to write well from the best—good books Real Authors write. </i><br />
+Girl: <i>Real Authors? </i><br />
+Boy: <i>Yeah, the experts at writing. Their writing stands tall. So can yours. </i><br />
+Girl: <i>Yeah? </i><br />
+Boy: <i>Yeah. See, athletes learn from good athletes. Artists learn from good artists. Writers learn from good writers. Get the picture? </i><br />
+Girl: <i>Hmm… </i><br />
+Boy: <i>Ok, here goes—Real authors use lots of detail… </i>
+</p2></blockquote>
 
 <p class="awards">
 Moonbeam Children's Book Award

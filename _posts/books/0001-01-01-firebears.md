@@ -20,13 +20,15 @@ buy: "http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.a
 
 A warm and face-paced story little ones will want read over and over again about the hard-working firebears at Fire Station Number Eight.
 
-> _DING-LING-LING!  
-> Through the hole.  
-> Hurry, slip-slide down the pole!_
-
-> _Racing, rushing  
-> To the scene—  
-> Firebears, the rescue team!_
+<blockquote class="excerpt"><p2 class="excerpt">
+DING-LING-LING! <br />
+Through the hole. <br />
+Hurry, slip-slide down the pole!
+<br /><br />
+Racing, rushing <br />
+To the scene— <br />
+Firebears, the rescue team!
+</p2></blockquote>
 
 "…Greene has written an exciting and charming ode to all firefighting heroes, whatever their species, aimed at the young cubs who will love the excitement."  
 _Kirkus_

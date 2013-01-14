@@ -164,7 +164,7 @@ a img {
 	clear:both;
 	font-size:.8em;
 	text-align:center;
-	margin: 20px 0 15px;
+	margin: 30px 0 15px;
 }
 
 #contact a {
@@ -407,7 +407,7 @@ a img {
 #book_cover {
 	width: 300px;
 	float: left;
-	margin: 0 10px 0 0;
+	margin: 0 10px 30px 0;
 	font-size:.9em;
 	line-height:1em;
 	color: #666;
@@ -438,11 +438,31 @@ a img {
 	overflow: hidden;
 }
 
+blockquote.excerpt {
+	width:340px;
+	font-style:italic;
+	margin-left:20px;
+}
+
+blockquote.standtall {
+	width:340px;
+	margin-left:20px;
+}
+
 .awards {
   font-size:.7em;
   color: #4789e2;
   padding:0 0 0 0;
   margin-right: 2em;
+  word-spacing:0.04em;   
+  letter-spacing:0.01em;
+}
+
+.starred {
+  font-size:1em;
+  color: #4789e2;
+  padding:0;
+  margin:0;
   word-spacing:0.04em;   
   letter-spacing:0.01em;
 }
@@ -738,6 +758,12 @@ a img {
 	overflow: hidden;
 }
 
+#bio_img_redfolder {
+	float: left;
+	margin: -5px 10px 0 0;
+	overflow: hidden;
+}
+
 #bio_img_center {
 	text-align:center;
 	margin:0;
@@ -860,10 +886,34 @@ a img {
 	overflow: hidden;
 }
 
+#visit_img_mann {
+	float: left;
+	margin: 15px 80px 15px 82px;
+	overflow: hidden;
+}
+
+#visit_img_puppets {
+	float: left;
+	margin: 15px 82px 15px 0;
+	overflow: hidden;
+}
+
 #visit_img_other {
 	float: left;
-	margin: 5px 15px 0 5px;
-	padding-top:20px;
+	margin: 5px 45px 0 5px;
+	overflow: hidden;
+}
+
+#visit_img_gr {
+	float: left;
+	margin: -35px 45px 0 5px;
+	overflow: hidden;
+}
+
+#sidepics {
+	float: left;
+	width: 245px;
+	margin: 0;
 	overflow: hidden;
 }
 

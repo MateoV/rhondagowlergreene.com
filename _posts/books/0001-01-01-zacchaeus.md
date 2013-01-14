@@ -14,15 +14,17 @@ buy: "http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.a
 
 Zacchaeus was short, too short to see Jesus when he came to town. So what did Zacchaeus do? He climbed a sycamore tree. While talking to the people, Jesus saw Zacchaeus up in the tree and told him he was coming to his house. The townspeople frowned and grumbled. Why would Jesus visit the home of a tax collector and one who was greedy at that? This retelling of a New Testament story is told in delightful rhythm and rhyme for the youngest readers.
 
-> _He tried to find  
-> the perfect spot  
-> where he could see. But he could not._
-
-> _He tried this way,  
-> That way too.  
-> What could small Zacchaeus do?_
-
-> _Oh, how he wished  
-> that he could see.  
-> Then he spied—  
-> a sycamore tree!_
+<blockquote class="excerpt"><p2 class="excerpt">
+He tried to find <br />
+the perfect spot <br />
+where he could see. But he could not.
+<br /><br />
+He tried this way, <br />
+That way too. <br />
+What could small Zacchaeus do?
+<br /><br />
+Oh, how he wished <br />
+that he could see. <br />
+Then he spied— <br />
+a sycamore tree!
+</p2></blockquote>
