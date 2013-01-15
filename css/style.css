@@ -57,6 +57,13 @@ h1 {
 	color: #4789e2;
 }
 
+.biospace {
+	font-size:.8em;
+	margin-top: 30px;
+	text-indent: 1px;
+	color: #4789e2;
+}
+
 .h3 {
 	font-size:1.2em;
 	font-style:italic;
@@ -66,6 +73,11 @@ h1 {
 .h4 {
 	font-size:.8em;
 	text-indent: 1px;
+	color: #7a47e2;
+}
+
+.sparkle {
+	font-size:.9em;
 	color: #7a47e2;
 }
 
@@ -769,7 +781,7 @@ blockquote.standtall {
 
 #bio_img_redfolder {
 	float: left;
-	margin: -5px 10px 0 0;
+	margin: 0px 10px 0 0;
 	overflow: hidden;
 }
 
@@ -786,14 +798,14 @@ blockquote.standtall {
 
 #family {
 	width: 810px;
-	margin:0;
+	margin: 0;
 	line-height:1em;
 }
 
 #family #matt {
 	float:left;
 	width: 400px;
-	margin: 0 0 10px 0;
+	margin: 10px 0 10px 0;
 	/*background-color:#d9efff;*/
 	overflow: hidden;
 }
@@ -801,7 +813,7 @@ blockquote.standtall {
 #family #aaron {
 	float:left;
 	width: 400px;
-	margin: 0 0 10px 10px;
+	margin: 10px 0 10px 10px;
 	/*background-color:#d9efff;*/
 	overflow: hidden;
 }
@@ -809,7 +821,7 @@ blockquote.standtall {
 #family #lianna {
 	float:left;
 	width: 400px;
-	margin: 0 0 10px 0;
+	margin: 0 0 25px 0;
 	/*background-color:#d9efff;*/
 	overflow: hidden;
 }
@@ -817,7 +829,7 @@ blockquote.standtall {
 #family #brad {
 	float:left;
 	width: 400px;
-	margin: 0 0 10px 10px;
+	margin: 0 0 25px 10px;
 	/*background-color:#d9efff;*/
 	overflow: hidden;
 }
