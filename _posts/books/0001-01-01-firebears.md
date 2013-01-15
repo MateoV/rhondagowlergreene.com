@@ -12,7 +12,7 @@ isbn:
   - type: "Scholastic Book Club edition"
     number: 0-545-05186-X
     inprint: true
-  - type: "Scholastic Book Club audio CD edition"
+  - type: "Scholastic Book Club audio CD"
     number: 0-545-04441-3
     inprint: true
 buy: "http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FFirebears-Rescue-Rhonda-Gowler-Greene%2Fdp%2F0805070109%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1207816816%26sr%3D8-20&tag=rhondgowlegre-20&linkCode=ur2&camp=1789&creative=9325"
