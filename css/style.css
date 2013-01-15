@@ -42,6 +42,15 @@ h1 {
 	margin: 14px 0 12px 0;
 }
 
+.welcome {
+	font-size:24px;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	letter-spacing:10px;
+	font-weight:normal;
+	margin: 14px 0 12px 0;
+}
+
 .h2 {
 	font-size:.8em;
 	text-indent: 1px;
@@ -110,8 +119,8 @@ a img {
 	margin: 25px auto;
 	padding:1px 0 10px 0;
     width: 900px;
-	/*border-radius: 6px;
-    box-shadow: 0 2px 25px #2e4178;*/
+	border-radius: 6px;
+    box-shadow: 0 2px 25px #2e4178;
 	background:#FFF;
 }
 
