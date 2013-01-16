@@ -38,7 +38,7 @@ layout: default
         {% if book.type == "Kindle ebook edition" %} {{book.type}} {% elsif book.type == "audio CD version" %} {{book.type}} {% else %} ISBN {{book.number}} ({{book.type}}) {% endif %}
       {% endfor %}
     </p>
-    {% if page.buy == false %} {% else %} <div id="buynow"><a class="buy buy-info" href="{{page.buy}}" target="_blank">Buy now</a></div> <div id="amazon">Some books are out of print but available through the author.  Please inquire.</div> {% endif %}
+    {% if page.buy == false %} {% else %} <div id="buynow"><a class="buy buy-info" href="{{page.buy}}" target="_blank">Buy now</a></div> <div id="outofprint">Some books are out of print but available through the author.  Please inquire.</div> {% endif %}
   </div>
   <div id="book_title">{{page.title}}</div>
   <div id="book_info"><p class="description">

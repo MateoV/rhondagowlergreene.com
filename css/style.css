@@ -218,6 +218,8 @@ a img {
 #nav li {
 	display:inline-block;
 	margin: 0 17px;
+	zoom: 1;
+	*display: inline;
 }
 
 #nav li.books {
@@ -348,6 +350,8 @@ a img {
 #nav a { 
 	display:inline-block;
 	margin: 0;
+	zoom: 1;
+	*display: inline;
 }
 
 #nav a:hover { 
@@ -478,7 +482,7 @@ blockquote.standtall {
 
 .awards {
   font-size:.7em;
-  color: #97a2ba;
+  color: #4789e2;
   padding:0 0 0 0;
   margin-right: 2em;
   word-spacing:0.04em;   
@@ -487,7 +491,7 @@ blockquote.standtall {
 
 .starred {
   font-size:1em;
-  color: #97a2ba;
+  color: #4789e2;
   padding:0;
   margin:0;
   word-spacing:0.04em;   
@@ -554,10 +558,9 @@ blockquote.standtall {
 	overflow: hidden;
 }
 
-#amazon {
+#outofprint {
 	float:left;
 	width: 200px;
-	height:25px;
 	margin: 0 10px 0 0;
 	color:#666;
 	font-size:.6em;
@@ -589,6 +592,8 @@ blockquote.standtall {
     text-align: center;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
     vertical-align: middle;
+	zoom: 1;
+	*display: inline;
 }
 
 .buy:hover {
@@ -787,7 +792,7 @@ blockquote.standtall {
 
 #bio_img_redfolder {
 	float: right;
-	margin: 10px 60px 0 0;
+	margin: 10px 60px 0 10px;
 	overflow: hidden;
 }
 
@@ -797,15 +802,47 @@ blockquote.standtall {
 	overflow: hidden;
 }
 
+#bio_img_ideas {
+	float: left;
+	margin: 10px 15px 20px 0;
+	overflow: hidden;
+}
+
+#bio_img_ideas2 {
+	float: left;
+	margin: 10px 0 20px 0;
+	overflow: hidden;
+}
+
+#travel {
+	margin: 10px 0 290px 0;
+}
+
+#bio_img_travel {
+	float: left;
+	margin: 10px 15px 5px 0;
+	overflow: hidden;
+}
+
+#bio_img_travel2 {
+	float: left;
+	margin: 10px 0 10px 0;
+	overflow: hidden;
+}
+
+#hobbies {
+	margin: 0 1px;
+}
+
 #bio_img_hobbies {
 	float: left;
-	margin: 10px 19px 15px 0;
+	margin: 10px 15px 5px 0;
 	overflow: hidden;
 }
 
 #bio_img_hobbies2 {
 	float: left;
-	margin: 10px 0 15px 0;
+	margin: 10px 0 18px 0;
 	overflow: hidden;
 }
 
@@ -937,9 +974,22 @@ blockquote.standtall {
 	overflow: hidden;
 }
 
+#visit_img_workshop {
+	float: left;
+	margin: 15px 15px 0 5px;
+	/*margin: 18px 10px 2px 10px;*/
+	overflow: hidden;
+}
+
 #visit_img_other {
 	float: left;
 	margin: 5px 45px 0 5px;
+	overflow: hidden;
+}
+
+#visit_img_news {
+	float: left;
+	margin: -7px 10px 0 -35px;
 	overflow: hidden;
 }
 
@@ -976,6 +1026,13 @@ blockquote.standtall {
 	border:1px #FFF solid;	
 }
 
+#other_news {
+	padding:10px 15px 15px 40px;
+	line-height:1.2em;
+	background-color:#edf1fa;
+	border:1px #8eabf5 solid;	
+}
+
 .caption {
 	margin:0;
 	font-size: .5em;
@@ -985,7 +1042,7 @@ blockquote.standtall {
 }
 
 .caption_other {
-	margin:0 0 30px 0;
+	margin:0 0 10px 0;
 	font-size: .5em;
 	line-height:1.5em;
 	font-style:italic;
@@ -1023,6 +1080,12 @@ blockquote.standtall {
 
 #writers {
 	width: 810px;
+}
+
+#dummy {
+	float: right;
+	margin: 5px 60px 0 10px;
+	overflow: hidden;
 }
 
 #goodbooks {
