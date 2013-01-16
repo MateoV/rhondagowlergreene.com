@@ -131,8 +131,14 @@ a img {
 	margin: 25px auto;
 	padding:1px 0 10px 0;
     width: 900px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
 	border-radius: 6px;
-    box-shadow: 0 2px 25px #2e4178;
+    -webkit-box-shadow: 0 2px 25px #2e4178;
+	-moz-box-shadow: 0 2px 25px #2e4178;
+	-o-box-shadow: 0 2px 25px #2e4178;
+	box-shadow: 0 2px 25px #2e4178;
 	background:#FFF;
 }
 
@@ -472,7 +478,7 @@ blockquote.standtall {
 
 .awards {
   font-size:.7em;
-  color: #4789e2;
+  color: #97a2ba;
   padding:0 0 0 0;
   margin-right: 2em;
   word-spacing:0.04em;   
@@ -481,7 +487,7 @@ blockquote.standtall {
 
 .starred {
   font-size:1em;
-  color: #4789e2;
+  color: #97a2ba;
   padding:0;
   margin:0;
   word-spacing:0.04em;   
@@ -788,6 +794,18 @@ blockquote.standtall {
 #bio_img_center {
 	text-align:center;
 	margin:0;
+	overflow: hidden;
+}
+
+#bio_img_hobbies {
+	float: left;
+	margin: 10px 19px 15px 0;
+	overflow: hidden;
+}
+
+#bio_img_hobbies2 {
+	float: left;
+	margin: 10px 0 15px 0;
 	overflow: hidden;
 }
 
