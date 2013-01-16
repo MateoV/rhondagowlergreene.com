@@ -460,7 +460,7 @@ a img {
 }
 
 blockquote.excerpt {
-	width:340px;
+	width:350px;
 	font-style:italic;
 	margin-left:20px;
 }
@@ -737,7 +737,7 @@ blockquote.standtall {
 
 #bio_awards {
 	height:194px;
-	width:505px;
+	width:475px;
 	margin:-7px 0 0 173px;
 	padding-left:130px;
 	background-color:#edf1fa;
@@ -780,8 +780,8 @@ blockquote.standtall {
 }
 
 #bio_img_redfolder {
-	float: left;
-	margin: 0px 10px 0 0;
+	float: right;
+	margin: 10px 60px 0 0;
 	overflow: hidden;
 }
 
@@ -947,7 +947,7 @@ blockquote.standtall {
 }
 
 #box2 {
-	padding:10px 20px 15px 40px;
+	padding:10px 10px 15px 40px;
 	line-height:1.2em;
 	background-color:#edf1fa;
 	border:1px #8eabf5 solid;	
