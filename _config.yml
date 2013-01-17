@@ -1,6 +1,6 @@
 auto: true
 server: true
-baseurl: /rhondagowlergreene.com
+baseurl:
 permalink: /:categories/:title
 prose:
   rooturl: "_posts"
