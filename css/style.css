@@ -984,13 +984,13 @@ blockquote.standtall {
 
 #visit_img_mann {
 	float: left;
-	margin: 15px 80px 15px 82px;
+	margin: 15px 69px 15px 71px;
 	overflow: hidden;
 }
 
 #visit_img_puppets {
 	float: left;
-	margin: 15px 82px 15px 0;
+	margin: 15px 71px 15px 0;
 	overflow: hidden;
 }
 
@@ -1041,6 +1041,14 @@ blockquote.standtall {
 	border:1px #8eabf5 solid;	
 }
 
+#speaking {
+  font-size:.7em;
+  padding:0 0 0 140px;
+  margin: 0;
+  word-spacing:0.04em;   
+  letter-spacing:0.01em;
+}
+
 #testimonials {
 	background-color:#fffedc;
 	border:1px #FFF solid;	
@@ -1051,6 +1059,30 @@ blockquote.standtall {
 	line-height:1.2em;
 	background-color:#edf1fa;
 	border:1px #8eabf5 solid;	
+}
+
+#present {
+	margin:-10px 0 0 0;
+}
+
+#present li {
+  font-size:.7em;
+  padding:-5px 0 0 0;
+  margin-right: 2em;
+  word-spacing:0.04em;   
+  letter-spacing:0.01em;
+}
+
+.pre {
+  font-size:.8em;
+  padding:0;
+  margin-right: 2em;
+  margin-left:10px;
+  font-weight:normal;
+  word-spacing:0.04em;   
+  letter-spacing:0.01em;
+  line-height:1.2em;
+  color:#666;
 }
 
 .caption {
