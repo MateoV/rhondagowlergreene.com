@@ -996,7 +996,7 @@ blockquote.standtall {
 
 #visit_img_workshop {
 	float: left;
-	margin: 5px 15px 0px 5px;
+	margin: 12px 15px 0px 5px;
 	/*margin: 18px 10px 2px 10px;*/
 	overflow: hidden;
 }
@@ -1043,8 +1043,8 @@ blockquote.standtall {
 
 #speaking {
   font-size:.7em;
-  padding:0 0 0 121px;
-  margin: 0 0 15px 0;
+  padding:0 0 0 140px;
+  margin: 0 0 45px 0;
   word-spacing:0.04em;   
   letter-spacing:0.01em;
 }
