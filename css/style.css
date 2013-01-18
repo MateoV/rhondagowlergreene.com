@@ -429,10 +429,10 @@ a img {
 	border:1px #DDD solid;
 	font-size:.8em;
     text-decoration:none;
-	-webkit-transition: background .4s ease-in-out;
-    -moz-transition: background .4s ease-in-out;
-    -o-transition: background .4s ease-in-out;
-    transition: background .4s ease-in-out;
+	-webkit-transition: background .4s ease-in-out, color .4s ease-in-out;
+    -moz-transition: background .4s ease-in-out, color .4s ease-in-out;
+    -o-transition: background .4s ease-in-out, color .4s ease-in-out;
+    transition: background .4s ease-in-out, color .4s ease-in-out;
 }
 
 #nav li:hover ul.books li a:hover {
