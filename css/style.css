@@ -265,6 +265,10 @@ a img {
 	color:#FFF;
 }
 
+#nav li.books:hover a {
+	color:#FFF;
+}
+
 #nav li.bio {
 	padding:0 2px;
 }
@@ -308,6 +312,10 @@ a img {
 }
 
 #nav li.visits_tab a {
+	color:#FFF;
+}
+
+#nav li.visits:hover a {
 	color:#FFF;
 }
 
@@ -364,7 +372,7 @@ a img {
 }
 
 #nav li.submenu a {
-	color:#666699;
+	color:#666699 !important;;
 }
 
 #nav a { 
@@ -403,7 +411,6 @@ a img {
     white-space:nowrap;
 }
 
-
 #nav li:hover ul.books {
 	display: block;
     position: absolute; 
@@ -437,13 +444,13 @@ a img {
 
 #nav li:hover ul.books li a:hover {
 	text-decoration:none;
-	color:#FFF;
+	color:#FFF !important;;
 	background:#f7cd2b;
 }
 
 #nav li:hover ul.visits li a:hover {
 	text-decoration:none;
-	color:#FFF;
+	color:#FFF !important;;
 	background:#4789e2;
 }
 
