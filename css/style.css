@@ -669,6 +669,12 @@ blockquote.standtall {
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 
+#mi_reads {
+	float: right;
+	margin: -10px -20px 0 10px;
+	overflow: hidden;
+}
+
 .books_nav {
   margin:5px 0 0 0;
   padding:0 0 5px 0;
