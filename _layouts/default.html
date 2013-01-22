@@ -32,32 +32,32 @@
     <div id="rgg_header"><a href="{{base}}/">Rhonda Gowler Greene</a></div>
     <div id="sub_header"><a href="{{base}}/">children's book author & speaker</a></div>
   	<ul id="nav">
-      {% if page.category == "books" %} <li class="books_tab"><a href="{{base}}/books/shape">books</a>
+      {% if page.category == "books" %} <li class="books_tab"><a href="{{base}}/books/teacher" onClick="return true">books</a>
       			<ul class="books">
-                	<li class="submenu"><a href="{{base}}/books/shape">books</a></li>
+                	<li class="submenu"><a href="{{base}}/books/teacher">books</a></li>
                     <li class="submenu"><a href="{{base}}/forthcoming/pirates">forthcoming titles</a></li>
                 </ul>
       		</li> 
-            {% elsif page.category == "forthcoming" %} <li class="books_tab"><a href="{{base}}/books/shape">books</a>
+            {% elsif page.category == "forthcoming" %} <li class="books_tab"><a href="{{base}}/books/teacher" onClick="return true">books</a>
       			<ul class="books">
-                	<li class="submenu"><a href="{{base}}/books/shape">books</a></li>
+                	<li class="submenu"><a href="{{base}}/books/teacher">books</a></li>
                     <li class="submenu"><a href="{{base}}/forthcoming/pirates">forthcoming titles</a></li>
                 </ul>
       		</li>
-      		{% else %} <li class="books"><a href="{{base}}/books/shape">books</a>
+      		{% else %} <li class="books"><a href="{{base}}/books/teacher" onClick="return true">books</a>
             	<ul class="books">
-                	<li class="submenu"><a href="{{base}}/books/shape">books</a></li>
+                	<li class="submenu"><a href="{{base}}/books/teacher">books</a></li>
                     <li class="submenu"><a href="{{base}}/forthcoming/pirates">forthcoming titles</a></li>
                 </ul>
             </li> {% endif %}
       {% if page.category == "bio" %} <li class="bio_tab"><a href="{{base}}/bio/bio">bio</a></li> {% else %} <li class="bio"><a href="{{base}}/bio/bio">bio</a></li> {% endif %}
-      {% if page.category == "visits" %} <li class="visits_tab"><a href="{{base}}/visits/school">visits</a>
+      {% if page.category == "visits" %} <li class="visits_tab"><a href="{{base}}/visits/school" onClick="return true">visits</a>
       			<ul class="visits">
                 	<li class="submenu"><a href="{{base}}/visits/school">school visits</a></li>
                     <li class="submenu"><a href="{{base}}/visits/other">other presentations</a></li>
                 </ul>
       		</li>
-      		{% else %} <li class="visits"><a href="{{base}}/visits/school">visits</a>
+      		{% else %} <li class="visits"><a href="{{base}}/visits/school" onClick="return true">visits</a>
       			<ul class="visits">
                 	<li class="submenu"><a href="{{base}}/visits/school">school visits</a></li>
                     <li class="submenu"><a href="{{base}}/visits/other">other presentations</a></li>
