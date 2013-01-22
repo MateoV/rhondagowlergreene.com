@@ -235,6 +235,11 @@ a img {
 	color:#666699;
 }
 
+#nav a.topmenu {
+	text-decoration:none;
+	cursor:pointer;
+}
+
 #nav li {
 	display:inline-block;
 	margin: 0 17px;
