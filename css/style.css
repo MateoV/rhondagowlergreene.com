@@ -51,6 +51,15 @@ h1 {
 	margin: 14px 0 12px 0;
 }
 
+.welcome2 {
+	font-size:24px;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	letter-spacing:10px;
+	font-weight:normal;
+	margin: 14px 0 0 0;
+}
+
 .h2 {
 	font-size:.8em;
 	text-indent: 1px;
@@ -193,10 +202,44 @@ a img {
 	text-align:center;
 }
 
+#whatsnew {
+	margin-top: 0px;
+	padding-left:70px;
+	width: 670px;
+}
+
+#new_cover {
+	width: 300px;
+	float: left;
+	margin: 0 10px 15px 0;
+	font-size:.9em;
+	line-height:1em;
+	color: #666;
+	overflow: hidden;
+}
+
+#news {
+	font-weight: bold;
+	font-size:1.2em;
+	margin: 0 0 10px 0;
+	padding: 30px 0 0 0;
+	color: #666;
+}
+
+.news {
+	font-size:20px;
+	/*text-align:center;*/
+	font-family:Georgia, "Times New Roman", Times, serif;
+	letter-spacing:5px;
+	font-weight:normal;
+	margin: 14px 0 25px 0;
+	padding-left: 330px;
+}
+
 #trailer {
 	position:relative;
 	width:810px;
-	margin:0 0 90px 0;
+	margin:0 0 25px 0;
 	/*text-align:center;*/
 }
 
