@@ -222,7 +222,7 @@ a img {
 	font-weight: bold;
 	font-size:1.2em;
 	margin: 0 0 10px 0;
-	padding: 30px 0 0 0;
+	padding: 20px 0 0 0;
 	color: #666;
 }
 
@@ -235,6 +235,10 @@ a img {
 	margin: 35px 0 25px 0;
 	padding-left: 300px;
 	color: #7a47e2;
+}
+
+.illustrator {
+	font-size:14px;
 }
 
 #trailer {
