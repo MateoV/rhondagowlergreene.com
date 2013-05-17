@@ -35,7 +35,7 @@ _School Library Journal_
 _Ottawa Jewish Bulletin_
 
 <p class="awards">
-Association of Jewish Libraries Notable Book
+Sydney Taylor (Association of Jewish Libraries) Notable Book
 <br /><br />
 Children's Book Council Showcase Book
 </p>
