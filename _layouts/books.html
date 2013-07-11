@@ -2,6 +2,7 @@
 layout: default
 ---
 {% assign base = site.baseurl %}
+
 <ul class="books_nav">
   <li class="b1"><a href="{{base}}/books/pirates"></a></li>
   <li class="b2"><a href="{{base}}/books/teacher"></a></li>
@@ -39,8 +40,19 @@ layout: default
         {% if book.type == "Kindle ebook edition" %} {{book.type}} {% elsif book.type == "audio CD version" %} {{book.type}} {% else %} ISBN {{book.number}} ({{book.type}}) {% endif %}
       {% endfor %}
     </p>
-    {% if page.buy == false %} {% else %} <div id="buynow"><a class="buy buy-info" href="{{page.buy}}" target="_blank">Buy now</a></div> <div id="outofprint">Some books are out of print but available through the author.  Please inquire.</div> {% endif %}
+    {% if page.buy == false %} {% else %} <div id="buynow"><a class="buy buy-info" data-type="zoomin">Buy now</a></div> <div id="outofprint">Some books are out of print but available through the author. Please inquire.</div> {% endif %}
+  
+    <div class="overlay-container">  
+      <div class="window-container zoomin">
+  		<div id="close"><span class="close">Close [X]</span></div>
+          <h5>{{page.title}}</h5>   
+          <div id="childrensbookstore"><a href="{{page.buy1}}" target="_blank"><img src="{{base}}/img/childrensbookstore.gif" alt="ChildrensBookstore.com" /></a></div>
+          <div id="amazon"><a href="{{page.buy2}}" target="_blank"><img src="{{base}}/img/amazon.gif" alt="Amazon.com" /></a></div>  
+      </div>  
+    </div>  
+    
   </div>
+  
   <div id="book_title">{{page.title}}</div>
   <div id="book_info"><p class="description">
     {% if page.illustrator == false %} {% else %} Illustrated by {{page.illustrator}}<br /> {% endif %}

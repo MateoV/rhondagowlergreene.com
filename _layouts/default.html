@@ -13,6 +13,27 @@
   <meta name="description" content="The Official Page of award-winning children's author Rhonda Gowler Greene. Provides biographical and school visit information, teaching ideas, book reviews, publishing tips, and more...">
   <link rel="shortcut icon" type="image/x-icon" href="{{base}}/favicon.ico" />
   <link href="{{base}}/css/style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript">$(document).ready(function() {
+    $('.buy').click(function() {        
+      type = $(this).attr('data-type');  
+        $('.overlay-container').fadeIn(function() {  
+          window.setTimeout(function(){  
+          $('.window-container.'+type).addClass('window-container-visible');  
+          }, 0);  
+        });  
+    });  
+    $('.close').click(function() {  
+      $('.overlay-container').fadeOut().end().find('.window-container').removeClass('window-container-visible');  
+    });
+	$('.overlay-container').click(function(){
+      $('.overlay-container').fadeOut().end().find('.window-container').removeClass('window-container-visible');  
+	})                                            
+	$('.window-container').click(function(e){
+      e.stopPropagation();
+	})
+  });
+  </script>
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-37770839-1']);
