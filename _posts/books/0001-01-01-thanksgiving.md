@@ -16,6 +16,7 @@ isbn:
     number: 0-439-57441-2
     inprint: true
 buy: "http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FVery-First-Thanksgiving-Day%2Fdp%2F1416919163%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1207818469%26sr%3D8-17&tag=rhondgowlegre-20&linkCode=ur2&camp=1789&creative=9325"
+buy2: "http://www.childrensbookstore.com/shop/books/the-very-first-thanksgiving-day-9781416919162/"
 ---
 
 The story of the first Thanksgiving for young readers with beautiful Dutch-inspired paintings.

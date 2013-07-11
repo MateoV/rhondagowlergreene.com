@@ -791,14 +791,6 @@ blockquote.standtall {
 		transform:  scale(1);
 		opacity: 1;
 	}
-	
-		.window-container h3 {
-			margin: 1em 0 0.5em;
-			font-family: "Oleo Script";
-			font-weight: normal;
-			font-size: 25px;
-			text-align: center;
-		}
 		
 		.close {
 			margin: 0 auto;
@@ -820,6 +812,7 @@ h5 {
 	font-family:Times, "Times New Roman", serif;
 	font-weight: bold;
 	font-size:1.4em;
+	line-height:1em;
 	text-align:center;
 	color: #666;
 }
@@ -830,9 +823,48 @@ h5 {
 	margin: 25px auto 10px;
 }
 
+#childrensbookstore1 {
+	float: left;
+	width: 176px;
+	height: 32px;
+	margin: 0 10px 10px 162px;
+	overflow:hidden;
+}
+
+#childrensbookstore2 {
+	float: left;
+	width: 176px;
+	height: 32px;
+	margin: 0 10px 10px 162px;
+	overflow:hidden;
+}
+
+#hardcover {
+	padding: 7px 0 0 0;
+	height: 32px;
+	overflow:hidden;
+}
+
+#paperback {
+	padding: 10px 0 0 0;
+	overflow:hidden;
+}
+
 #amazon	{
 	width: 176px;
 	height: 28px;
+    margin: 10px auto 25px;
+}
+
+#childcraft	{
+	width: 176px;
+	height: 29px;
+    margin: 10px auto 25px;
+}
+
+#readingbirdbooks {
+	width: 176px;
+	height: 32px;
     margin: 10px auto 25px;
 }
 /* end buy now modal window */
