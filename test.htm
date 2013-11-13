@@ -7,7 +7,7 @@ layout: default
 
 <div id="whatsnew">
  {% for post in site.posts %}
-   {% if post.class == "default" %}
+   {% if post.featured == "true" %}
     <div id="bookwrapper">
     <div id="book_cover_index"><a href="{{base}}/books/{{post.short}}/" TITLE="{{post.title}}"><img src="{{base}}/img/cover_{{post.short}}.jpg" alt="{{post.title}}" width="250" /></a></div>
     
