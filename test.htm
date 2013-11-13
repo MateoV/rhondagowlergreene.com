@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% assign base = site.baseurl %}
+<div id="trailer">
+<div id="welcome"><span class="pagetext"><p class="welcome2">Welcome!</p></span></div>
+
+<div id="whatsnew">
+ {% for post in site.posts %}
+   {% if post.class == "default" %}
+    <div id="bookwrapper">
+    <div id="book_cover_index"><a href="{{base}}/books/{{post.short}}/" TITLE="{{post.title}}"><img src="{{base}}/img/cover_{{post.short}}.jpg" alt="{{post.title}}" width="250" /></a></div>
+    
+    <div id="indexbook">
+     <div id="book_title_index">{{post.title}}</div>
+     <div id="book_info_index"><p class="description">
+       {% if post.illustrator == false %} {% else %} Illustrated by {{post.illustrator}}<br /> {% endif %}
+         {{post.content}}
+     </div>
+    </div>
+    </div>
+   {% endif %}
+ {% endfor %}
+</div></div>
