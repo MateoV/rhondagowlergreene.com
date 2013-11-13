@@ -5,3 +5,4 @@ permalink: /:categories/:title
 main_title: Rhonda Gowler Greene
 prose:
   rooturl: "_posts"
+markdown: rdiscount
