@@ -50,7 +50,7 @@ layout: default
           <div id="childrensbookstore1"><a href="{{page.buy2h}}" target="_blank"><img src="{{base}}/img/childrensbookstore.gif" alt="ChildrensBookstore.com" /></a></div> <div id="hardcover">Hardcover</div>
           <div id="childrensbookstore2"><a href="{{page.buy2p}}" target="_blank"><img src="{{base}}/img/childrensbookstore.gif" alt="ChildrensBookstore.com" /></a></div> <div id="paperback">Paperback</div>
           {% else %} <div id="childrensbookstore"><a href="{{page.buy2}}" target="_blank"><img src="{{base}}/img/childrensbookstore.gif" alt="ChildrensBookstore.com" /></a></div> {% endif %}
-          {% if page.amazon == false && if page.short != "standtall" %} <div id="childcraft"><a href="{{page.buy}}" target="_blank"><img src="{{base}}/img/childcraft.gif" alt="Childcraft" /></a></div>
+          {% if page.amazon == false && if page.short != "standtall" %} <!--<div id="childcraft"><a href="{{page.buy}}" target="_blank"><img src="{{base}}/img/childcraft.gif" alt="Childcraft" /></a></div>--><div id="unavailable">Unavailable</div>
           {% elsif page.short == "standtall" %} <div id="readingbirdbooks"><a href="{{page.buy}}" target="_blank"><img src="{{base}}/img/readingbirdbooks.gif" alt="Reading Bird Books" /></a></div>
           {% else %} <div id="amazon"><a href="{{page.buy}}" target="_blank"><img src="{{base}}/img/amazon.gif" alt="Amazon.com" /></a></div> {% endif %}
       </div>  
@@ -63,3 +63,7 @@ layout: default
     {% if page.illustrator == false %} {% else %} Illustrated by {{page.illustrator}}<br /> {% endif %}
     {{content}}
 </div>
+
+{% if page.short == "pirates" %}
+<center><iframe width="706" height="397" src="https://www.youtube-nocookie.com/embed/lSoB5HnKOiA?rel=0" frameborder="0" allowfullscreen></iframe></center>
+{% else %} {% endif %}

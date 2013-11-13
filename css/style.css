@@ -202,10 +202,50 @@ a img {
 	text-align:center;
 }
 
+#welcome {
+	margin: 0 0 30px 0;	
+}
+
 #whatsnew {
 	margin-top: 0px;
 	padding-left:70px;
 	width: 670px;
+}
+
+#bookwrapper {
+	display: table;
+	margin: 20px 0 0 0;
+}
+
+#indexbook {
+	width: 400px;
+	vertical-align: middle;
+	float: none;
+	padding-left: 20px;
+	display: table-cell;
+}
+
+#book_cover_index {
+	width: 250px;
+	vertical-align: top;
+	float: none;
+	display: table-cell;
+	font-size:.9em;
+	line-height:1em;
+	color: #666;
+}
+
+#book_title_index {
+	font-family:Times, "Times New Roman", serif;
+	font-weight: bold;
+	font-size:1.2em;
+	padding: 0 0 0 0;
+	color: #666;
+}
+
+#book_info_index {
+	line-height:.9em;
+	color: #666;
 }
 
 #new_cover {
@@ -850,6 +890,13 @@ h5 {
 	overflow:hidden;
 }
 
+#unavailable	{
+	text-align: center;
+	width: 176px;
+	height: 29px;
+    margin: 10px auto 25px;
+}
+	
 #amazon	{
 	width: 176px;
 	height: 28px;
