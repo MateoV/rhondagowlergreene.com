@@ -45,6 +45,56 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
   </script>
+  
+  <script type='text/javascript' src='{{base}}/js/jquery.js?ver=1.8.3'></script>
+  <script type="text/javascript" src="{{base}}/js/superfish.js"></script>
+  <script type="text/javascript" src="{{base}}/js/hoverIntent.js"></script>
+  <script type="text/javascript" src="{{base}}/js/jquery.anythingslider.js"></script>
+  <script type="text/javascript" src="{{base}}/js/jquery.anythingslider.video.js"></script>
+  <script type="text/javascript" src="{{base}}/js/jquery.imgFade.js"></script>
+  
+  <script type="text/javascript"> 
+	var $j = jQuery.noConflict();
+    $j(document).ready(function() { 
+        $j('.menu').superfish(); 
+    }); 
+  </script>
+
+  <script type="text/javascript">
+	var $j = jQuery.noConflict();
+	$j(function(){
+		$j('#slider1').anythingSlider({
+			width           : 706,
+			height          : 500,
+			delay           : 4000,
+			resumeDelay     : 10000,
+			startStopped    : false,
+			autoPlay        : true,
+			autoPlayLocked  : false,
+			easing          : "swing",
+			onSlideComplete : function(slider){
+				// alert('Welcome to Slide #' + slider.currentPage);
+			}
+		});
+	});
+  </script>
+
+  <script type="text/javascript"> 
+	var $j = jQuery.noConflict();
+	$j(document).ready(function () {
+		$j('#homeslider iframe').each(function() {
+			var url = $j(this).attr("src")
+			$j(this).attr("src",url+"&amp;wmode=Opaque")
+		});
+	});
+  </script>
+
+  <script type="text/javascript">
+	var $j = jQuery.noConflict();
+	$j(function() {
+		$j().imgFade();
+	});
+  </script>
 </head>
 
 <body>

@@ -2,6 +2,25 @@
 layout: default
 ---
 {% assign base = site.baseurl %}
+
+<div id="homepagetop">
+  <div id="homeslider">
+    <ul id="slider1">
+      {% for post in site.posts %}
+        {% if post.featured == true %}
+          <li>
+            <a class="feature_img" href="{{base}}/books/{{post.short}}/" rel="bookmark"><img width="706" height="360" src="{{base}}/img/featured_{{post.short}}.jpg" class="attachment-home-feature wp-post-image" alt="{{post.short}}" /></a>
+            <div class="slideinfo">
+              <h1><a href="{{base}}/books/{{post.short}}/"></a></h1>
+            </div>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<!--
 <div id="trailer">
 <div id="welcome"><span class="pagetext"><p class="welcome2">Welcome!</p></span></div>
 
@@ -22,3 +41,4 @@ layout: default
    {% endif %}
  {% endfor %}
 </div></div>
+-->
