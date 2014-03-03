@@ -4,10 +4,20 @@ layout: default
 {% assign base = site.baseurl %}
 <div id="forthcoming">
 <span class="forth">Forthcoming Titles...</span><br />
+	  <a href="{{base}}/forthcoming/reillus">3 re-illustrated books</a>
 	  <a href="{{base}}/forthcoming/kitten">Only God Can Make a Kitten</a>
 	  <a href="{{base}}/forthcoming/walker">3 picture books with Walker Books</a>
-      <a href="{{base}}/forthcoming/reillus">3 re-illustrated books</a>
 </div>
+
+{% if page.short == "reillus" %}
+
+<div id="books">
+  <div id="reillus_cover"><img src="{{base}}/img/cover_sheep2.jpg" alt="One Lost Sheep" /><p class="reillus_date">March 2014</p></div>
+  <div id="reillus_cover"><img src="{{base}}/img/cover_noah2.jpg" alt="Noah & the Mighty Ark" /><p class="reillus_date">April 2014</p></div>
+  <div id="reillus_coverend"><img src="{{base}}/img/cover_jonah2.jpg" alt="Jonah & the Great Big Fish" /><p class="reillus_date">July 2014</p></div>
+</div>
+
+{% else %}
 
 <div id="books">
   <div id="book_cover"><img src="{{base}}/img/cover_{{page.short}}.jpg" alt="{{page.title}}" />
@@ -25,3 +35,5 @@ layout: default
     {% if page.illustrator == false %} {% else %} Illustrated by {{page.illustrator}}<br /> {% endif %}
     {{content}}
 </div>
+
+{% endif %}
