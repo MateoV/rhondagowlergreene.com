@@ -297,6 +297,16 @@ a img {
 	/*text-align:center;*/
 }
 
+#readinthepark {
+	width: 670px;
+	margin: 20px 0 0 0;
+}
+
+#temp_space {
+	width:670px;
+	padding: 20px 0 0 0;
+}
+
 /* featured */
 
 #homepagetop {
