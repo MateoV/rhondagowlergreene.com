@@ -300,6 +300,8 @@ a img {
 #readinthepark {
 	width: 670px;
 	margin: 20px 0 0 0;
+	font-size:14px;
+	color: #666;
 }
 
 #temp_space {
