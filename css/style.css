@@ -57,7 +57,21 @@ h1 {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	letter-spacing:10px;
 	font-weight:normal;
+	padding-top:70px;
 	margin: 14px 0 0 0;
+}
+
+#welcome_text {
+	float:left;
+	padding-left:150px;
+	width:300px;
+	height:222px;
+	line-height:.9em;
+	color: #666;
+}
+
+#welcome_img {
+	margin: 10px 0 0 0;	
 }
 
 .h2 {
@@ -207,7 +221,7 @@ a img {
 }
 
 #whatsnew {
-	margin-top: 0px;
+	margin-top: 15px;
 	padding-left:70px;
 	width: 670px;
 }
@@ -239,7 +253,8 @@ a img {
 	font-family:Times, "Times New Roman", serif;
 	font-weight: bold;
 	font-size:1.2em;
-	padding: 0 0 0 0;
+	margin: 0 0 10px 0;
+	padding-top: 25px;
 	color: #666;
 }
 
@@ -262,7 +277,7 @@ a img {
 	font-weight: bold;
 	font-size:1.2em;
 	margin: 0 0 10px 0;
-	padding: 20px 0 0 0;
+	padding: 10px 0 0 0;
 	color: #666;
 }
 
@@ -272,7 +287,7 @@ a img {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	letter-spacing:3px;
 	font-weight:normal;
-	margin: 20px 0 0 0;
+	margin: 0 0 0 0;
 	padding-left: 300px;
 	color: #7a47e2;
 }
@@ -894,28 +909,47 @@ blockquote.standtall {
 	color: #4789e2;
 }
 
-#reillus_cover {
+#reillus_text {
+	text-align:center;	
+	margin:50px 0 15px;
+}
+
+.reillus {
+	font-size:18px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	letter-spacing:2px;
+	font-weight:normal;
+	margin:0;
+	color: #666;
+}
+
+#reillus {
+	padding-left:70px;
 	width: 670px;
-	margin: 0 0 30px 0;
-	text-align:center;
+}
+
+#reillus_cover {
+	width: 216px;
+	float: left;
+	margin: 0 11px 30px 0;
 	font-size:.9em;
 	line-height:1em;
 	color: #666;
 	overflow: hidden;
 }
 
-/*#reillus_coverend {
-	width: 228px;
+#reillus_coverend {
+	width: 216px;
 	float: left;
 	margin: 0 0 30px 0;
 	font-size:.9em;
 	line-height:1em;
 	color: #666;
 	overflow: hidden;
-}*/
+}
 
 .reillus_date {
-	width: 228px;
+	width: 216px;
 	padding-bottom:20px;
 	margin: 10px 0 0 0;
 	text-align:center;
