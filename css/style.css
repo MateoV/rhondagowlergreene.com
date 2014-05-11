@@ -52,26 +52,43 @@ h1 {
 }
 
 .welcome2 {
-	font-size:24px;
+	font-size:26px;
 	text-align:center;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	letter-spacing:10px;
 	font-weight:normal;
-	padding-top:70px;
+	padding-top:10px;
 	margin: 14px 0 0 0;
 }
 
 #welcome_text {
 	float:left;
-	padding-left:150px;
-	width:300px;
+	padding-left:140px;
+	margin: 0 10px 0 0;
+	width:310px;
 	height:222px;
 	line-height:.9em;
 	color: #666;
 }
 
+.welcome_text {
+  font-size:.8em;
+  padding:0 0 10px 0;
+  margin: 10px 0;
+  word-spacing:0.04em;   
+  letter-spacing:0.01em;
+}
+
 #welcome_img {
 	margin: 10px 0 0 0;	
+}
+
+#line1 {
+	padding:5px 0 0 0;	
+}
+
+#line2 {
+	padding:0 0 0 0;	
 }
 
 .h2 {
