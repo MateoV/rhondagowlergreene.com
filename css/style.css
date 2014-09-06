@@ -1087,15 +1087,15 @@ blockquote.standtall {
 		content: " ";
 		height: 100%;
 		width: 100%;
-		position: absolute;
+		position: fixed;
 		left: 0;
 		top: 0;
 	}
-	
+
 	.window-container {
 		display: block;
 		background: #fcfcfc;
-		margin: 8em auto;
+		margin: 20em auto;
 		width: 500px;
 		padding: 10px 20px 20px;
 		text-align: left;
