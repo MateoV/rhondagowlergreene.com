@@ -108,10 +108,20 @@ h1 {
 	color: #7a47e2;
 }
 
+.h6 {
+	font-size:1.2em;
+	font-style:italic;
+}
+
 .h4 {
 	font-size:.8em;
 	text-indent: 1px;
 	color: #7a47e2;
+}
+
+.h7 {
+	font-size:.8em;
+	text-indent: 1px;
 }
 
 .available {
@@ -240,6 +250,7 @@ a img {
     padding-left:70px;
 	width: 670px;
 	color: #666;
+    font-size:14px;
 }
 
 #whatsnew {
@@ -1345,6 +1356,7 @@ h5 {
 #bio_img_rhonda {
 	float: left;
 	margin: 7px 10px 0 0;
+    padding-top:25px;
 	overflow: hidden;
 }
 
@@ -1475,7 +1487,8 @@ h5 {
 #family #kids {
 	float:left;
 	width: 400px;
-	margin: 0 410px 20px 0;
+	margin: 0 241px 20px 0;
+    padding-left:169px;
 	/*background-color:#d9efff;*/
 	overflow: hidden;
 }
@@ -1514,6 +1527,16 @@ h5 {
 	margin: 0;
 }
 
+#attn_visits {
+    margin: 0;
+	color: #666;
+    font-size: .8em;
+}
+
+.attn {
+    color:red;
+}
+
 #intro {
 	margin: 0 0 0 235px;
 }
@@ -1525,6 +1548,10 @@ h5 {
 
 #otherinfo {
 	margin:0;
+}
+
+#prek_jump {
+    content:none;
 }
 
 #visit_pics {
@@ -1716,6 +1743,18 @@ h5 {
 }
 
 /* contact */
+
+#contact_links {
+    margin-bottom:10px;
+    text-align:center;
+    line-height:1.9em;
+}
+
+.h8 {
+	font-size:18px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+}
 
 #contact_info {
 	width: 810px;
