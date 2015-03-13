@@ -247,16 +247,16 @@ a img {
 
 #attn {
     margin-top: 40px;
-    padding-left:70px;
-	width: 670px;
+    padding-left:52px;
+	width: 706px;
 	color: #666;
     font-size:14px;
 }
 
 #whatsnew {
 	margin-top: 30px;
-	padding-left:70px;
-	width: 670px;
+	padding-left:52px;
+	width: 746px;
 }
 
 #bookwrapper {
@@ -288,6 +288,15 @@ a img {
 	font-size:1.2em;
 	margin: 0 0 10px 0;
 	padding-top: 15px;
+	color: #666;
+}
+
+#kitten_title_index {
+	font-family:Times, "Times New Roman", serif;
+	font-weight: bold;
+	font-size:1.2em;
+	margin: 0 0 10px 0;
+	padding-top: 60px;
 	color: #666;
 }
 
@@ -961,10 +970,11 @@ blockquote.standtall {
 	width: 670px;
 }
 
-#reillus_cover {
-	width: 216px;
+#kitten_home {
+	width: 300px;
 	float: left;
-	margin: 0 11px 30px 0;
+	margin: 0 10px 45px 0;
+    padding-left: 52px;
 	font-size:.9em;
 	line-height:1em;
 	color: #666;
