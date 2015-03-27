@@ -335,6 +335,15 @@ a img {
 }
 
 .guides {
+  font-size:.8em;
+  font-weight:normal;
+  padding:0;
+  margin:0 0 20px 0;
+  word-spacing:0.04em;   
+  letter-spacing:0.01em;
+}
+
+.guides_home {
   font-size:.7em;
   font-weight:normal;
   padding:0;
