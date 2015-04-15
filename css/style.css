@@ -318,7 +318,7 @@ a img {
 #news {
 	font-weight: bold;
 	font-size:1.2em;
-	margin: 0 0 10px 0;
+	margin: 0 0 6px 0;
 	padding: 10px 0 0 0;
 	color: #666;
 }
@@ -347,7 +347,7 @@ a img {
   font-size:.7em;
   font-weight:normal;
   padding:0;
-  margin:0 0 20px 0;
+  margin:0 0 5px 0;
   word-spacing:0.04em;   
   letter-spacing:0.01em;
 }
