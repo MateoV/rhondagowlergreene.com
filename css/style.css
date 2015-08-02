@@ -1547,13 +1547,17 @@ h5 {
 }
 
 #attn_visits {
-    margin: 0;
+    margin: 30px 0 40px 0;
 	color: #666;
     font-size: .8em;
 }
 
 .attn {
     color:red;
+}
+
+.attnstate {
+    color:#7a47e2;
 }
 
 #intro {
