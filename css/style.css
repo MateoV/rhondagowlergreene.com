@@ -291,7 +291,7 @@ a img {
 	color: #666;
 }
 
-#kitten_title_index {
+#book_title_home {
 	font-family:Times, "Times New Roman", serif;
 	font-weight: bold;
 	font-size:1.2em;
@@ -979,7 +979,11 @@ blockquote.standtall {
 	width: 670px;
 }
 
-#kitten_home {
+#book_home {
+    clear:both;
+}
+
+#cover_home {
 	width: 300px;
 	float: left;
 	margin: 0 10px 45px 0;
@@ -1186,37 +1190,28 @@ h5 {
 	text-align:center;
 	color: #666;
 }
+
+#indiebound {
+	width: 176px;
+	height: 40px;
+	margin: 0 auto 10px;
+}
 			
 #childrensbookstore {
 	width: 176px;
 	height: 32px;
-	margin: 25px auto 10px;
-}
-
-#childrensbookstore1 {
-	float: left;
-	width: 176px;
-	height: 32px;
-	margin: 0 10px 10px 162px;
-	overflow:hidden;
-}
-
-#childrensbookstore2 {
-	float: left;
-	width: 176px;
-	height: 32px;
-	margin: 0 10px 10px 162px;
-	overflow:hidden;
+	margin: 0 auto 10px;
 }
 
 #hardcover {
-	padding: 7px 0 0 0;
-	height: 32px;
+    text-align: center;
+    margin: 0 auto 10px;
 	overflow:hidden;
 }
 
 #paperback {
-	padding: 10px 0 0 0;
+    text-align: center;
+    margin: 40px auto 10px;
 	overflow:hidden;
 }
 

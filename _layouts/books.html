@@ -45,10 +45,15 @@ layout: default
     <div class="overlay-container">  
       <div class="window-container zoomin">
   		<div id="close"><span class="close">Close [X]</span></div>
-          <h5>{{page.title}}</h5>   
+          <h5>{{page.title}}</h5>
+          {% if page.buy3 == false %} {% elsif page.short == "shape" %} {% else %} <div id="indiebound"><a href="{{page.buy3}}" target="_blank"><img src="{{base}}/img/indiebound.gif" alt="IndieBound.org" /></a></div> {% endif %}
           {% if page.buy2 == false %} {% elsif page.short == "shape" %} 
-          <div id="childrensbookstore1"><a href="{{page.buy2h}}" target="_blank"><img src="{{base}}/img/childrensbookstore.gif" alt="ChildrensBookstore.com" /></a></div> <div id="hardcover">Hardcover</div>
-          <div id="childrensbookstore2"><a href="{{page.buy2p}}" target="_blank"><img src="{{base}}/img/childrensbookstore.gif" alt="ChildrensBookstore.com" /></a></div> <div id="paperback">Paperback</div>
+          <div id="hardcover">Hardcover</div>
+          <div id="indiebound"><a href="{{page.buy3h}}" target="_blank"><img src="{{base}}/img/indiebound.gif" alt="IndieBound.org" /></a></div>
+          <div id="childrensbookstore"><a href="{{page.buy2h}}" target="_blank"><img src="{{base}}/img/childrensbookstore.gif" alt="ChildrensBookstore.com" /></a></div>
+          <div id="paperback">Paperback</div>
+          <div id="indiebound"><a href="{{page.buy3p}}" target="_blank"><img src="{{base}}/img/indiebound.gif" alt="IndieBound.org" /></a></div>
+          <div id="childrensbookstore"><a href="{{page.buy2p}}" target="_blank"><img src="{{base}}/img/childrensbookstore.gif" alt="ChildrensBookstore.com" /></a></div>
           {% else %} <div id="childrensbookstore"><a href="{{page.buy2}}" target="_blank"><img src="{{base}}/img/childrensbookstore.gif" alt="ChildrensBookstore.com" /></a></div> {% endif %}
           {% if page.amazon == false && if page.short != "standtall" %} <!--<div id="childcraft"><a href="{{page.buy}}" target="_blank"><img src="{{base}}/img/childcraft.gif" alt="Childcraft" /></a></div>--><div id="unavailable">Unavailable</div>
           {% elsif page.short == "standtall" %} <div id="readingbirdbooks"><a href="{{page.buy}}" target="_blank"><img src="{{base}}/img/readingbirdbooks.gif" alt="Reading Bird Books" /></a></div>

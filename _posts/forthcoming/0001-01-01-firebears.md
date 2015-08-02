@@ -1,7 +1,7 @@
 ---
 layout: forthcoming
 category: forthcoming
-title: Firebears The Rescue Team board book edition
+title: Firebears The Rescue Team board book
 short: firebears_board
 illustrator: Dan Andreasen
 publisher: "Christy Ottaviano Books/Holt"
