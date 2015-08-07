@@ -14,6 +14,19 @@
   <link rel="shortcut icon" type="image/x-icon" href="{{base}}/favicon.ico" />
   <link href="{{base}}/css/style.css" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+       $('.rightArrow').click(function() {
+          var leftPos = $('#books_nav_container').scrollLeft();
+          $('#books_nav_container').animate({scrollLeft: leftPos + 200}, 800);
+       });
+
+          $('.leftArrow').click(function() { 
+            var leftPos = $('#books_nav_container').scrollLeft();
+          $('#books_nav_container').animate({scrollLeft: leftPos - 200}, 800);
+       });
+    });
+  </script> 
   <script type="text/javascript">$(document).ready(function() {
     $('.buy').click(function() {        
       type = $(this).attr('data-type');  
@@ -106,19 +119,19 @@
       {% if page.category == "books" %} <li class="books_tab"><a class="topmenu" onClick="return true">books</a>
       			<ul class="books">
                 	<li class="submenu"><a href="{{base}}/books/pirates">books</a></li>
-                    <li class="submenu"><a href="{{base}}/forthcoming/kitten">forthcoming titles</a></li>
+                    <li class="submenu"><a href="{{base}}/forthcoming/kittenb">forthcoming titles</a></li>
                 </ul>
       		</li> 
             {% elsif page.category == "forthcoming" %} <li class="books_tab"><a class="topmenu" onClick="return true">books</a>
       			<ul class="books">
                 	<li class="submenu"><a href="{{base}}/books/pirates">books</a></li>
-                    <li class="submenu"><a href="{{base}}/forthcoming/kitten">forthcoming titles</a></li>
+                    <li class="submenu"><a href="{{base}}/forthcoming/kittenb">forthcoming titles</a></li>
                 </ul>
       		</li>
       		{% else %} <li class="books"><a class="topmenu" onClick="return true">books</a>
             	<ul class="books">
                 	<li class="submenu"><a href="{{base}}/books/pirates">books</a></li>
-                    <li class="submenu"><a href="{{base}}/forthcoming/kitten">forthcoming titles</a></li>
+                    <li class="submenu"><a href="{{base}}/forthcoming/kittenb">forthcoming titles</a></li>
                 </ul>
             </li> {% endif %}
       {% if page.category == "bio" %} <li class="bio_tab"><a href="{{base}}/bio">bio</a></li> {% else %} <li class="bio"><a href="{{base}}/bio">bio</a></li> {% endif %}

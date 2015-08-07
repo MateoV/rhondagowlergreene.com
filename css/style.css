@@ -1128,7 +1128,7 @@ blockquote.standtall {
 
 	.window-container {
 		display: block;
-		background: #fcfcfc;
+		background: #fff;
 		margin: 20em auto;
 		width: 500px;
 		padding: 10px 20px 20px;
@@ -1247,17 +1247,140 @@ h5 {
 	overflow: hidden;
 }
 
+#books_nav_wrapper {
+    width: 810px; 
+    height: 135px;
+    white-space: nowrap;
+    position: relative;
+}
+
+#books_nav_container {
+    width:711px;
+    height:100%;
+    margin-left: 52px;
+    overflow: hidden;
+ /* display:inline-block;
+    position: absolute;
+    float: left;
+    left:52px; */
+}
+
+.leftArrow {
+    background-color: #66C;
+    background: -webkit-gradient(linear, left top, left bottom, from(#99C), to(#66C));
+    background-image: -moz-linear-gradient(center top , #99C, #66C);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    content: "<";
+    display: inline-block;
+    font: bold 14px "Georgia";
+    position: absolute;
+    left:15px;
+    top:55px;
+    cursor: pointer;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 25px;
+    
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.leftArrow:after {
+    color: #FFF;
+    content: "<";
+    display: inline-block;
+    font: bold 14px "Georgia";
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 25px;
+    
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.leftArrow:hover:after, .leftArrow:active:after, .leftArrow.active:after {
+    background-color: #66C;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.rightArrow {
+    background-color: #66C;
+    background: -webkit-gradient(linear, left top, left bottom, from(#99C), to(#66C));
+    background-image: -moz-linear-gradient(center top , #99C, #66C);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    content: ">";
+    display: inline-block;
+    font: bold 14px "Georgia";
+    position: absolute;
+    left:771px;
+    top:55px;
+    cursor: pointer;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 25px;
+    
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.rightArrow:after {
+    color: #FFF;
+    content: ">";
+    display: inline-block;
+    font: bold 14px "Georgia";
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 25px;
+    
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.rightArrow:hover:after, .leftArrow:active:after, .leftArrow.active:after {
+    background-color: #66C;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
 .books_nav {
-  margin:5px 0 0 0;
-  padding:0 0 5px 0;
+    margin:5px 0 0 0;
+    padding:0 0 5px 0;
 	height:60px;
 	position:relative;
 	margin-left: -75px; /*temporary fix*/
+    white-space:nowrap;
 }
 
 .books_nav2 {
-  margin:0 0 0 0;
-  padding:0 0 5px 0;
+    margin:0 0 0 0;
+    padding:0 0 5px 0;
 	height:60px;
 	position:relative;
 	margin-left: -75px; /*temporary fix*/
@@ -1265,74 +1388,78 @@ h5 {
 
 .books_nav li {
 	border: 1px solid #666;
-  list-style: none;
-  margin:0;
+    list-style: none;
+    margin:0;
 	position:absolute;
 }
 
 .books_nav2 li {
 	border: 1px solid #666;
-  list-style: none;
-  margin:0;
+    list-style: none;
+    margin:0;
 	position:absolute;
 }
 
 .books_nav li a {
-  display:block;
+    display:block;
 	height:60px;
 }
 
 .books_nav2 li a {
-  display:block;
+    display:block;
 	height:60px;
 }
 
-.b1 {left:127px; width:72px; background:url('../img/books_navhover.png') -5px -5px no-repeat;}
-.b2 {left:204px; width:58px; background:url('../img/books_navhover.png') -82px -5px no-repeat;}
-.b3 {left:267px; width:63px; background:url('../img/books_navhover.png') -145px -5px no-repeat;}
-.b4 {left:335px; width:46px; background:url('../img/books_navhover.png') -213px -5px no-repeat;}
-.b5 {left:386px; width:46px; background:url('../img/books_navhover.png') -264px -5px no-repeat;}
-.b6 {left:437px; width:49px; background:url('../img/books_navhover.png') -315px -5px no-repeat;}
-.b7 {left:491px; width:60px; background:url('../img/books_navhover.png') -369px -5px no-repeat;}
-.b8 {left:556px; width:54px; background:url('../img/books_navhover.png') -434px -5px no-repeat;}
-.b9 {left:615px; width:55px; background:url('../img/books_navhover.png') -493px -5px no-repeat;}
-.b10 {left:675px; width:57px; background:url('../img/books_navhover.png') -553px -5px no-repeat;}
-.b11 {left:737px; width:46px; background:url('../img/books_navhover.png') -615px -5px no-repeat;}
-.b12 {left:788px; width:45px; background:url('../img/books_navhover.png') -666px -5px no-repeat;}
-.b13 {left:127px; width:50px; background:url('../img/books_navhover.png') -5px -70px no-repeat;}
-.b14 {left:182px; width:76px; background:url('../img/books_navhover.png') -60px -70px no-repeat;}
-.b15 {left:263px; width:59px; background:url('../img/books_navhover.png') -141px -70px no-repeat;}
-.b16 {left:327px; width:47px; background:url('../img/books_navhover.png') -205px -70px no-repeat;}
-.b17 {left:379px; width:76px; background:url('../img/books_navhover.png') -257px -70px no-repeat;}
-.b18 {left:460px; width:46px; background:url('../img/books_navhover.png') -338px -70px no-repeat;}
-.b19 {left:511px; width:46px; background:url('../img/books_navhover.png') -389px -70px no-repeat;}
-.b20 {left:562px; width:64px; background:url('../img/books_navhover.png') -440px -70px no-repeat;}
-.b21 {left:631px; width:64px; background:url('../img/books_navhover.png') -509px -70px no-repeat;}
-.b22 {left:700px; width:64px; background:url('../img/books_navhover.png') -578px -70px no-repeat;}
-.b23 {left:769px; width:64px; background:url('../img/books_navhover.png') -647px -70px no-repeat;}
-.b1 a:hover {left:127px; width:72px; background:url('../img/books_navhover.png') -5px -135px no-repeat;}
-.b2 a:hover {left:204px; width:58px; background:url('../img/books_navhover.png') -82px -135px no-repeat;}
-.b3 a:hover {left:267px; width:63px; background:url('../img/books_navhover.png') -145px -135px no-repeat;}
-.b4 a:hover {left:335px; width:46px; background:url('../img/books_navhover.png') -213px -135px no-repeat;}
-.b5 a:hover {left:386px; width:46px; background:url('../img/books_navhover.png') -264px -135px no-repeat;}
-.b6 a:hover {left:437px; width:49px; background:url('../img/books_navhover.png') -315px -135px no-repeat;}
-.b7 a:hover {left:491px; width:60px; background:url('../img/books_navhover.png') -369px -135px no-repeat;}
-.b8 a:hover {left:556px; width:54px; background:url('../img/books_navhover.png') -434px -135px no-repeat;}
-.b9 a:hover {left:615px; width:55px; background:url('../img/books_navhover.png') -493px -135px no-repeat;}
-.b10 a:hover {left:675px; width:57px; background:url('../img/books_navhover.png') -553px -135px no-repeat;}
-.b11 a:hover {left:737px; width:46px; background:url('../img/books_navhover.png') -615px -135px no-repeat;}
-.b12 a:hover {left:788px; width:45px; background:url('../img/books_navhover.png') -666px -135px no-repeat;}
-.b13 a:hover {left:127px; width:50px; background:url('../img/books_navhover.png') -5px -200px no-repeat;}
-.b14 a:hover {left:182px; width:76px; background:url('../img/books_navhover.png') -60px -200px no-repeat;}
-.b15 a:hover {left:263px; width:59px; background:url('../img/books_navhover.png') -141px -200px no-repeat;}
-.b16 a:hover {left:327px; width:47px; background:url('../img/books_navhover.png') -205px -200px no-repeat;}
-.b17 a:hover {left:379px; width:76px; background:url('../img/books_navhover.png') -257px -200px no-repeat;}
-.b18 a:hover {left:460px; width:46px; background:url('../img/books_navhover.png') -338px -200px no-repeat;}
-.b19 a:hover {left:511px; width:46px; background:url('../img/books_navhover.png') -389px -200px no-repeat;}
-.b20 a:hover {left:562px; width:64px; background:url('../img/books_navhover.png') -440px -200px no-repeat;}
-.b21 a:hover {left:631px; width:64px; background:url('../img/books_navhover.png') -509px -200px no-repeat;}
-.b22 a:hover {left:700px; width:64px; background:url('../img/books_navhover.png') -578px -200px no-repeat;}
-.b23 a:hover {left:769px; width:64px; background:url('../img/books_navhover.png') -647px -200px no-repeat;}
+.b1 {left:75px; width:72px; background:url('../img/books_navhover.png') -5px -5px no-repeat;}
+.b2 {left:152px; width:58px; background:url('../img/books_navhover.png') -82px -5px no-repeat;}
+.b3 {left:215px; width:63px; background:url('../img/books_navhover.png') -145px -5px no-repeat;}
+.b4 {left:283px; width:46px; background:url('../img/books_navhover.png') -213px -5px no-repeat;}
+.b5 {left:334px; width:46px; background:url('../img/books_navhover.png') -264px -5px no-repeat;}
+.b6 {left:385px; width:49px; background:url('../img/books_navhover.png') -315px -5px no-repeat;}
+.b7 {left:439px; width:60px; background:url('../img/books_navhover.png') -369px -5px no-repeat;}
+.b8 {left:504px; width:54px; background:url('../img/books_navhover.png') -434px -5px no-repeat;}
+.b9 {left:563px; width:55px; background:url('../img/books_navhover.png') -493px -5px no-repeat;}
+.b10 {left:623px; width:57px; background:url('../img/books_navhover.png') -717px -5px no-repeat;}
+.b11 {left:685px; width:46px; background:url('../img/books_navhover.png') -615px -5px no-repeat;}
+.b12 {left:736px; width:45px; background:url('../img/books_navhover.png') -666px -5px no-repeat;}
+.b13 {left:75px; width:50px; background:url('../img/books_navhover.png') -5px -70px no-repeat;}
+.b14 {left:130px; width:76px; background:url('../img/books_navhover.png') -60px -70px no-repeat;}
+.b15 {left:211px; width:59px; background:url('../img/books_navhover.png') -141px -70px no-repeat;}
+.b16 {left:275px; width:47px; background:url('../img/books_navhover.png') -205px -70px no-repeat;}
+.b17 {left:327px; width:76px; background:url('../img/books_navhover.png') -257px -70px no-repeat;}
+.b18 {left:408px; width:46px; background:url('../img/books_navhover.png') -338px -70px no-repeat;}
+.b19 {left:459px; width:46px; background:url('../img/books_navhover.png') -389px -70px no-repeat;}
+.b20 {left:510px; width:64px; background:url('../img/books_navhover.png') -440px -70px no-repeat;}
+.b21 {left:579px; width:64px; background:url('../img/books_navhover.png') -509px -70px no-repeat;}
+.b22 {left:648px; width:64px; background:url('../img/books_navhover.png') -578px -70px no-repeat;}
+.b23 {left:717px; width:64px; background:url('../img/books_navhover.png') -647px -70px no-repeat;}
+.b24 {left:75px; width:57px; background:url('../img/books_navhover.png') -553px -5px no-repeat;}
+.b25 {left:137px; width:60px; background:url('../img/books_navhover.png') -716px -70px no-repeat;}
+.b1 a:hover {background:url('../img/books_navhover.png') -5px -135px no-repeat;}
+.b2 a:hover {background:url('../img/books_navhover.png') -82px -135px no-repeat;}
+.b3 a:hover {background:url('../img/books_navhover.png') -145px -135px no-repeat;}
+.b4 a:hover {background:url('../img/books_navhover.png') -213px -135px no-repeat;}
+.b5 a:hover {background:url('../img/books_navhover.png') -264px -135px no-repeat;}
+.b6 a:hover {background:url('../img/books_navhover.png') -315px -135px no-repeat;}
+.b7 a:hover {background:url('../img/books_navhover.png') -369px -135px no-repeat;}
+.b8 a:hover {background:url('../img/books_navhover.png') -434px -135px no-repeat;}
+.b9 a:hover {background:url('../img/books_navhover.png') -493px -135px no-repeat;}
+.b10 a:hover {background:url('../img/books_navhover.png') -717px -135px no-repeat;}
+.b11 a:hover {background:url('../img/books_navhover.png') -615px -135px no-repeat;}
+.b12 a:hover {background:url('../img/books_navhover.png') -666px -135px no-repeat;}
+.b13 a:hover {background:url('../img/books_navhover.png') -5px -200px no-repeat;}
+.b14 a:hover {background:url('../img/books_navhover.png') -60px -200px no-repeat;}
+.b15 a:hover {background:url('../img/books_navhover.png') -141px -200px no-repeat;}
+.b16 a:hover {background:url('../img/books_navhover.png') -205px -200px no-repeat;}
+.b17 a:hover {background:url('../img/books_navhover.png') -257px -200px no-repeat;}
+.b18 a:hover {background:url('../img/books_navhover.png') -338px -200px no-repeat;}
+.b19 a:hover {background:url('../img/books_navhover.png') -389px -200px no-repeat;}
+.b20 a:hover {background:url('../img/books_navhover.png') -440px -200px no-repeat;}
+.b21 a:hover {background:url('../img/books_navhover.png') -509px -200px no-repeat;}
+.b22 a:hover {background:url('../img/books_navhover.png') -578px -200px no-repeat;}
+.b23 a:hover {background:url('../img/books_navhover.png') -647px -200px no-repeat;}
+.b24 a:hover {background:url('../img/books_navhover.png') -553px -135px no-repeat;}
+.b25 a:hover {background:url('../img/books_navhover.png') -716px -200px no-repeat;}
 
 .clearer {
 	clear: both;
@@ -1499,7 +1626,6 @@ h5 {
 }
 
 #family #kids {
-	float:left;
 	width: 400px;
 	margin: 0 241px 20px 0;
     padding-left:169px;

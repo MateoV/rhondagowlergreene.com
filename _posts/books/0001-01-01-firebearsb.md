@@ -1,23 +1,17 @@
 ---
 layout: books
 category: books
-title: Firebears The Rescue Team
-short: firebears
+title: Firebears The Rescue Team board book
+short: firebearsb
 illustrator: Dan Andreasen
-publisher: "Holt"
+publisher: "Christy Ottaviano Books/Holt"
 isbn:
-  - type: hardcover
-    number: 0-805-07010-9
-    inprint: false
-  - type: "Scholastic Book Club edition"
-    number: 0-545-05186-X
+  - type: board book
+    number: 1-627-79240-6
     inprint: true
-  - type: "Scholastic Book Club audio CD"
-    number: 0-545-04441-3
-    inprint: true
-buy: "http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FFirebears-Rescue-Rhonda-Gowler-Greene%2Fdp%2F0805070109%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1207816816%26sr%3D8-20&tag=rhondgowlegre-20&linkCode=ur2&camp=1789&creative=9325"
-buy2: false
-featured: true
+buy: "http://www.amazon.com/Firebears-Rescue-Rhonda-Gowler-Greene/dp/1627792406/ref=tmm_other_meta_binding_swatch_0?_encoding=UTF8&qid=&sr="
+buy2: "http://www.childrensbookstore.com/shop/books/firebears-the-rescue-team-9781627792400/"
+buy3: "http://www.indiebound.org/book/9781627792400"
 ---
 
 A warm and face-paced story little ones will want read over and over again about the hard-working firebears at Fire Station Number Eight.
