@@ -14,7 +14,7 @@ buy2: "http://www.childrensbookstore.com/shop/books/firebears-the-rescue-team-97
 buy3: "http://www.indiebound.org/book/9781627792400"
 ---
 
-A warm and face-paced story little ones will want read over and over again about the hard-working firebears at Fire Station Number Eight.
+A warm and fast-paced story little ones will want read over and over again about the hard-working firebears at Fire Station Number Eight.
 
 <blockquote class="excerpt"><p2 class="excerpt">
 DING-LING-LING! <br />
