@@ -7,7 +7,7 @@ illustrator: Dan Andreasen
 publisher: "Christy Ottaviano Books/Holt"
 isbn:
   - type: board book
-    number: 1-627-79240-6
+    number: 978-1-62779-240-0
     inprint: true
 buy: "http://www.amazon.com/Firebears-Rescue-Rhonda-Gowler-Greene/dp/1627792406/ref=tmm_other_meta_binding_swatch_0?_encoding=UTF8&qid=&sr="
 buy2: "http://www.childrensbookstore.com/shop/books/firebears-the-rescue-team-9781627792400/"
