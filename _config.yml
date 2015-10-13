@@ -1,5 +1,4 @@
 auto: true
-server: true
 baseurl:
 permalink: /:categories/:title
 main_title: Rhonda Gowler Greene
