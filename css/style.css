@@ -354,6 +354,7 @@ a img {
 
 .illustrator {
 	font-size:14px;
+    color: #666;
 }
 
 #trailer {
@@ -1607,6 +1608,15 @@ h5 {
 	margin: 10px 0 10px 10px;
 	/*background-color:#d9efff;*/
 	overflow: hidden;
+}
+
+#family #aaron p {
+    font-size:.7em;
+    padding:0 0 0 0;
+    margin-right: 2em;
+    margin-bottom: 0;
+    word-spacing:0.04em;   
+    letter-spacing:0.01em;
 }
 
 #family #lianna {
