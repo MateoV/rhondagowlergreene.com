@@ -254,7 +254,6 @@ a img {
 }
 
 #whatsnew {
-	margin-top: 30px;
 	padding-left:52px;
 	width: 746px;
 }
@@ -287,7 +286,6 @@ a img {
 	font-weight: bold;
 	font-size:1.2em;
 	margin: 0 0 10px 0;
-	padding-top: 15px;
 	color: #666;
 }
 
@@ -308,7 +306,7 @@ a img {
 #new_cover {
 	width: 300px;
 	float: left;
-	margin: 21px 10px 15px 0;
+	margin: 0px 10px 15px 0;
 	font-size:.9em;
 	line-height:1em;
 	color: #666;
@@ -319,12 +317,23 @@ a img {
 	font-weight: bold;
 	font-size:1.2em;
 	margin: 0 0 6px 0;
-	padding: 10px 0 0 0;
+	padding: 5px 0 0 0;
 	color: #666;
 }
 
 .news {
 	font-size:20px;
+	/*text-align:center;*/
+	font-family:Georgia, "Times New Roman", Times, serif;
+	letter-spacing:3px;
+	font-weight:normal;
+	margin: 0 0 0 0;
+	padding-left: 300px;
+	color: #7a47e2;
+}
+
+.nowavailable {
+	font-size:16px;
 	/*text-align:center;*/
 	font-family:Georgia, "Times New Roman", Times, serif;
 	letter-spacing:3px;
@@ -982,6 +991,10 @@ blockquote.standtall {
 #reillus {
 	padding-left:70px;
 	width: 670px;
+}
+
+#book_home_top {
+    margin-top: 50px;
 }
 
 #book_home {
